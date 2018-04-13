@@ -29,73 +29,75 @@
   <![endif]-->
 
   <link rel="icon" href="http://pertamina.asi-rekrutmen.com/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" type="text/css" href="http://pertamina.asi-
-
-rekrutmen.com/media/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/css/isotope.css" 
-
-media="screen" />
-  <link rel="stylesheet" type="text/css" href="http://pertamina.asi-
-
-rekrutmen.com/media/js/fancybox/jquery.fancybox.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/css/da-slider.css" 
-
-/>
+  <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/css/isotope.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/js/fancybox/jquery.fancybox.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/css/da-slider.css" />
   <!-- Owl Carousel Assets -->
-  <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/js/owl-
-
-carousel/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/js/owl-carousel/owl.carousel.css">
   <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/css/styles.css" />
   <!-- Font Awesome -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
-
-rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <style>
+
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 .column {
   float: left;
   width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
+
+
 .column2 {
   float: left;
   width: 33%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
+
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
   }
 }
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 max-width: 300px;
  text-align: center;
 margin: auto;
 background: white
+
 }
+
 .container {
   padding: 0 16px;
 }
+
 .container::after, .row::after {
   content: "";
   clear: both;
   display: table;
 }
+
 .title {
   color: grey;
 }
+
+
+
 .button {
   border: none;
   outline: 0;
@@ -109,14 +111,18 @@ background: white
   border-radius: 25px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 .button:hover {
   background-color: #555;
 box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
+
 /*animations*/
+
 /******************
 * Bounce in right *
 *******************/
+
 .animated { 
     -webkit-animation-duration: 1s; 
     animation-duration: 1s; 
@@ -141,6 +147,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-fill-mode: both; 
     animation-fill-mode: both; 
 }
+
 /* Added by Andy Meetan */
 .delay-250 {
     -webkit-animation-delay:0.25s;
@@ -220,6 +227,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -o-animation-delay:3.5s;
     animation-delay:3.5s;
 }
+
 .bounceInRight, .bounceInLeft, .bounceInUp, .bounceInDown{
     opacity:0;
     -webkit-transform: translateX(400px); 
@@ -230,16 +238,17 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-transform: translateX(400px); 
     transform: translateX(400px); 
 }
-.flipInX, .flipInY, .rotateIn, .rotateInUpLeft, .rotateInUpRight, .rotateInDownLeft, .rotateDownUpRight, 
 
-.rollIn{
+.flipInX, .flipInY, .rotateIn, .rotateInUpLeft, .rotateInUpRight, .rotateInDownLeft, .rotateDownUpRight, .rollIn{
     opacity:0;
 }
+
 .lightSpeedInRight, .lightSpeedInLeft{
     opacity:0;
     -webkit-transform: translateX(400px); 
     transform: translateX(400px); 
 }
+
 /***********
 * bounceIn *
 ************/
@@ -248,40 +257,50 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         opacity: 0; 
         -webkit-transform: scale(.3); 
     } 
+
     50% { 
         opacity: 1; 
         -webkit-transform: scale(1.05); 
     } 
+
     70% { 
         -webkit-transform: scale(.9); 
     } 
+
     100% { 
          -webkit-transform: scale(1); 
     } 
 } 
+
 @keyframes bounceIn { 
     0% { 
         opacity: 0; 
         transform: scale(.3); 
     } 
+
     50% { 
         opacity: 1; 
         transform: scale(1.05); 
     } 
+
     70% { 
         transform: scale(.9); 
     } 
+
     100% { 
         transform: scale(1); 
     } 
 } 
+
 .bounceIn.go { 
     -webkit-animation-name: bounceIn; 
     animation-name: bounceIn; 
 }
+
 /****************
 * bounceInRight *
 ****************/
+
 @-webkit-keyframes bounceInRight { 
     0% { 
         opacity: 0; 
@@ -301,6 +320,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         -webkit-transform: translateX(0); 
     } 
 } 
+
 @keyframes bounceInRight { 
     0% { 
         opacity: 0; 
@@ -320,13 +340,17 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         transform: translateX(0); 
     } 
 } 
+
+
 .bounceInRight.go { 
     -webkit-animation-name: bounceInRight; 
     animation-name: bounceInRight; 
 }
+
 /******************
 * Bounce in left *
 *******************/
+
 @-webkit-keyframes bounceInLeft { 
     0% { 
         opacity: 0; 
@@ -346,6 +370,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         -webkit-transform: translateX(0); 
     } 
 } 
+
 @keyframes bounceInLeft { 
     0% { 
         opacity: 0; 
@@ -365,13 +390,16 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         transform: translateX(0); 
     } 
 } 
+
 .bounceInLeft.go { 
     -webkit-animation-name: bounceInLeft; 
     animation-name: bounceInLeft; 
 }
+
 /******************
 * Bounce in up *
 *******************/
+
 @-webkit-keyframes bounceInUp { 
     0% { 
         opacity: 0; 
@@ -391,6 +419,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         -webkit-transform: translateY(0); 
     } 
 } 
+
 @keyframes bounceInUp { 
     0% { 
         opacity: 0; 
@@ -410,13 +439,17 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         transform: translateY(0); 
     } 
 } 
+
 .bounceInUp.go { 
     -webkit-animation-name: bounceInUp; 
     animation-name: bounceInUp; 
 }
+
+
 /******************
 * Bounce in down *
 *******************/
+
 @-webkit-keyframes bounceInDown { 
     0% { 
         opacity: 0; 
@@ -436,6 +469,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         -webkit-transform: translateY(0); 
     } 
 } 
+
 @keyframes bounceInDown { 
     0% { 
         opacity: 0; 
@@ -455,10 +489,13 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         transform: translateY(0); 
     } 
 } 
+
 .bounceInDown.go { 
     -webkit-animation-name: bounceInDown; 
     animation-name: bounceInDown; 
 }
+
+
 /**********
 * Fade In *
 **********/ 
@@ -479,9 +516,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeIn; 
     animation-name: fadeIn; 
 }
+
 /**********
 * Grow in *
 ***********/
+
 @-webkit-keyframes growIn { 
     0% { 
         -webkit-transform: scale(0.2); 
@@ -511,6 +550,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     } 
 } 
 .growIn { 
+
     -webkit-transform: scale(0.2);
     transform: scale(0.2);
     opacity:0;
@@ -519,6 +559,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: growIn; 
     animation-name: growIn; 
 }
+
 /********
 * Shake *
 ********/
@@ -536,6 +577,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: shake; 
     animation-name: shake; 
 }
+
 /********
 * ShakeUp *
 ********/
@@ -553,9 +595,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: shakeUp; 
     animation-name: shakeUp; 
 }
+
 /*************
 * FadeInLeft *
 *************/
+
 @-webkit-keyframes fadeInLeft { 
     0% { 
         opacity: 0; 
@@ -591,9 +635,12 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeInLeft; 
     animation-name: fadeInLeft; 
 }
+
+
 /*************
 * FadeInRight *
 *************/
+
 @-webkit-keyframes fadeInRight { 
     0% { 
         opacity: 0; 
@@ -629,9 +676,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeInRight; 
     animation-name: fadeInRight; 
 }
+
 /*************
 * FadeInUp *
 *************/
+
 @-webkit-keyframes fadeInUp { 
     0% { 
         opacity: 0; 
@@ -667,9 +716,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeInUp; 
     animation-name: fadeInUp; 
 }
+
 /*************
 * FadeInDown *
 *************/
+
 @-webkit-keyframes fadeInDown { 
     0% { 
         opacity: 0; 
@@ -705,6 +756,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeInDown; 
     animation-name: fadeInDown; 
 }
+
 /*****************
 * rotateIn *
 *****************/
@@ -736,9 +788,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: rotateIn; 
     animation-name: rotateIn; 
 }
+
 /*****************
 * rotateInUpLeft *
 *****************/
+
 @-webkit-keyframes rotateInUpLeft { 
     0% { 
         -webkit-transform-origin: left bottom; 
@@ -767,6 +821,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: rotateInUpLeft; 
     animation-name: rotateInUpLeft; 
 }
+
 /*******************
 * rotateInDownLeft *
 *******************/
@@ -798,9 +853,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: rotateInDownLeft; 
     animation-name: rotateInDownLeft; 
 }
+
 /******************
 * rotateInUpRight *
 *******************/
+
 @-webkit-keyframes rotateInUpRight { 
     0% { 
         -webkit-transform-origin: right bottom; 
@@ -829,9 +886,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: rotateInUpRight; 
     animation-name: rotateInUpRight; 
 }
+
 /********************
 * rotateInDownRight *
 ********************/
+
 @-webkit-keyframes rotateInDownRight { 
     0% { 
         -webkit-transform-origin: right bottom; 
@@ -860,9 +919,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: rotateInDownRight; 
     animation-name: rotateInDownRight; 
 }
+
 /*********
 * rollIn *
 **********/
+
 @-webkit-keyframes rollIn { 
     0% { opacity: 0; -webkit-transform: translateX(-100%) rotate(-120deg); } 
     100% { opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); } 
@@ -875,9 +936,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: rollIn; 
     animation-name: rollIn; 
 }
+
 /*********
 * wiggle *
 **********/
+
 @-webkit-keyframes wiggle { 
     0% { -webkit-transform: skewX(9deg); } 
     10% { -webkit-transform: skewX(-8deg); } 
@@ -910,9 +973,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-timing-function: ease-in; 
     animation-timing-function: ease-in; 
 } 
+
 /********
 * swing *
 *********/
+
 @-webkit-keyframes swing { 
     20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; } 
     20% { -webkit-transform: rotate(15deg); } 
@@ -934,9 +999,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: swing; 
     animation-name: swing; 
 }
+
 /*******
 * tada *
 ********/
+
 @-webkit-keyframes tada { 
     0% {-webkit-transform: scale(1);} 
     10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);} 
@@ -955,9 +1022,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: tada; 
     animation-name: tada; 
 }
+
 /*********
 * wobble *
 **********/
+
 @-webkit-keyframes wobble { 
   0% { -webkit-transform: translateX(0%); } 
   15% { -webkit-transform: translateX(-25%) rotate(-5deg); } 
@@ -980,9 +1049,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: wobble; 
     animation-name: wobble; 
 }
+
 /********
 * pulse *
 *********/
+
 @-webkit-keyframes pulse { 
     0% { -webkit-transform: scale(1); } 
     50% { -webkit-transform: scale(1.1); } 
@@ -997,6 +1068,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: pulse; 
     animation-name: pulse; 
 }
+
 /***************
 * lightSpeedInRight *
 ****************/
@@ -1018,6 +1090,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-timing-function: ease-out; 
     animation-timing-function: ease-out; 
 } 
+
 /***************
 * lightSpeedInLeft *
 ****************/
@@ -1039,6 +1112,8 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-timing-function: ease-out; 
     animation-timing-function: ease-out; 
 } 
+
+
 /*******
 * Flip *
 *******/
@@ -1092,6 +1167,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     backface-visibility: visible !important; 
     animation-name: flip; 
 }
+
 /**********
 * flipInX *
 **********/
@@ -1133,9 +1209,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     backface-visibility: visible !important; 
     animation-name: flipInX; 
 }
+
 /**********
 * flipInY *
 **********/
+
 @-webkit-keyframes flipInY { 
     0% { 
         -webkit-transform: perspective(400px) rotateY(90deg); 
@@ -1174,9 +1252,12 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     backface-visibility: visible !important; 
     animation-name: flipInY; 
 }
+
 /*****************
 * Out animations *
 *****************/
+
+
 /************
 * bounceOut *
 *************/
@@ -1216,6 +1297,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: bounceOut; 
     animation-name: bounceOut; 
 }
+
 /************
 * bounceOutUp *
 *************/
@@ -1249,6 +1331,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: bounceOutUp; 
     animation-name: bounceOutUp; 
 }
+
 /************
 * bounceOutDown *
 *************/
@@ -1282,6 +1365,8 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: bounceOutDown; 
     animation-name: bounceOutDown; 
 }
+
+
 /************
 * bounceOutLeft *
 *************/
@@ -1315,6 +1400,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: bounceOutLeft; 
     animation-name: bounceOutLeft; 
 }
+
 /************
 * bounceOutRight *
 *************/
@@ -1348,6 +1434,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: bounceOutRight; 
     animation-name: bounceOutRight; 
 }
+
 /************
 * fadeOut *
 *************/
@@ -1363,6 +1450,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeOut; 
     animation-name: fadeOut; 
 }
+
 /************
 * fadeOutUp *
 *************/
@@ -1390,6 +1478,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeOutUp; 
     animation-name: fadeOutUp; 
 }
+
 /************
 * fadeOutDown *
 *************/
@@ -1417,6 +1506,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeOutDown; 
     animation-name: fadeOutDown; 
 }
+
 /************
 * fadeOutLeft *
 *************/
@@ -1444,6 +1534,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeOutLeft; 
     animation-name: fadeOutLeft; 
 }
+
 /************
 * fadeOutRight *
 *************/
@@ -1500,6 +1591,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     animation-name: flipOutX; 
     backface-visibility: visible !important; 
 }
+
 /************
 * flipOutY *
 *************/
@@ -1529,6 +1621,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     backface-visibility: visible !important; 
     animation-name: flipOutY; 
 }
+
 /************
 * lightSpeedOutRight *
 *************/
@@ -1546,6 +1639,8 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-timing-function: ease-in; 
     animation-timing-function: ease-in; 
 } 
+
+
 /************
 * lightSpeedOutLeft *
 *************/
@@ -1562,7 +1657,9 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     animation-name: lightSpeedOutLeft; 
     -webkit-animation-timing-function: ease-in; 
     animation-timing-function: ease-in; 
+
 } 
+
 /************
 * rotateOut *
 *************/
@@ -1594,6 +1691,8 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: rotateOut; 
     animation-name: rotateOut; 
 }
+
+
 /************
 * rotateOutUpLeft *
 *************/
@@ -1625,9 +1724,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: rotateOutUpLeft; 
     animation-name: rotateOutUpLeft; 
 }
+
 /************
 * rotateOutDownLeft *
 *************/
+
 @-webkit-keyframes rotateOutDownLeft { 
     0% { 
         -webkit-transform-origin: left bottom; 
@@ -1659,6 +1760,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
 /************
 * rotateOutUpRight *
 *************/
+
 @-webkit-keyframes rotateOutUpRight { 
     0% { 
         -webkit-transform-origin: right bottom; 
@@ -1687,6 +1789,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: rotateOutUpRight; 
     animation-name: rotateOutUpRight; 
 }
+
 /************
 * rollOut *
 *************/
@@ -1717,6 +1820,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
 /*****************
 * Short Animations
 *******************/
+
 /*********************
 * fadeInUpShort
 *********************/
@@ -1730,6 +1834,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         -webkit-transform: translateY(0); 
     } 
 } 
+
 @keyframes fadeInUpShort { 
     0% { 
         opacity: 0; 
@@ -1749,6 +1854,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeInUpShort; 
     animation-name: fadeInUpShort; 
 }
+
 /*********************
 * fadeInDownShort
 *********************/
@@ -1762,6 +1868,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
         -webkit-transform: translateY(0); 
     } 
 } 
+
 @keyframes fadeInDownShort { 
     0% { 
         opacity: 0; 
@@ -1781,6 +1888,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeInDownShort; 
     animation-name: fadeInDownShort; 
 }
+
 /*********************
 * fadeInRightShort 
 *********************/
@@ -1813,6 +1921,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeInRightShort; 
     animation-name: fadeInRightShort; 
 }
+
 /*********************
 * fadeInLeftShort 
 *********************/
@@ -1845,6 +1954,8 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     -webkit-animation-name: fadeInLeftShort; 
     animation-name: fadeInLeftShort; 
 }
+
+
   button.accordion {
     background-color: #eee;
     color: #444;
@@ -1915,13 +2026,11 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
 </head>
 
 <body>
-  <header class="header" style=" box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);" >
+  <header class="header">
     <div class="container">
       <nav class="navbar navbar-inverse" role="navigation">
         <div class="navbar-header">
-          <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-
-
-target="#main-nav">
+          <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -1959,21 +2068,13 @@ target="#main-nav">
 
  
     <div class="banner-container">
-      <img src="https://108401319-
-
-816422375249468873.preview.editmysite.com/uploads/1/0/8/4/108401319/mhk_orig.png" alt="banner" />    <!--
-
-img src="http://pertamina.asi-rekrutmen.com/media/images/banner_wewantyou.jpg" alt="banner" /-->
+      <img src="https://108401319-816422375249468873.preview.editmysite.com/uploads/1/0/8/4/108401319/mhk_orig.png" alt="banner" />    <!--img src="http://pertamina.asi-rekrutmen.com/media/images/banner_wewantyou.jpg" alt="banner" /-->
       
 <div class="container banner-content">
 <div id="da-slider" class="da-slider">    
 
 	<div class="da-slide">
-          <h2><br><br><br> <center> <img src="https://108401319-
-
-816422375249468873.preview.editmysite.com/uploads/1/0/8/4/108401319/pertamina-hulu-mahakam-06_1_orig.png" 
-
-height="150%" width="150%" alt="banner"/> </center><br/></h2>
+          <h2><br><br><br> <center> <img src="https://108401319-816422375249468873.preview.editmysite.com/uploads/1/0/8/4/108401319/pertamina-hulu-mahakam-06_1_orig.png" height="150%" width="150%" alt="banner"/> </center><br/></h2>
             <p><br><br>  </p> 
             <div class="da-img"></div>
   </div>
@@ -1983,11 +2084,7 @@ height="150%" width="150%" alt="banner"/> </center><br/></h2>
             <div class="da-img"></div>
           </div>
  <div class="da-slide">
-          <h2><br><br><br> <center> <img src="https://108401319-
-
-816422375249468873.preview.editmysite.com/uploads/1/0/8/4/108401319/pertamina-hulu-mahakam-06_1_orig.png" 
-
-height="150%" width="150%" alt="banner"/> </center><br/></h2>
+          <h2><br><br><br> <center> <img src="https://108401319-816422375249468873.preview.editmysite.com/uploads/1/0/8/4/108401319/pertamina-hulu-mahakam-06_1_orig.png" height="150%" width="150%" alt="banner"/> </center><br/></h2>
             <p><br><br>  </p> 
             <div class="da-img"></div>
           </div>
@@ -2011,308 +2108,150 @@ height="150%" width="150%" alt="banner"/> </center><br/></h2>
   <section id="introText">
     <div class="container animatedParent w3-container">
       <div class="text-center" >
-      <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-size:1200%;color:rgba
-
-(186,49,59);text-shadow:2px 2px 4px #000000;" >lightbulb_outline</i>
+      <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-size:1200%;color:rgba(186,49,59);text-shadow:2px 2px 4px #000000;" >lightbulb_outline</i>
          <h2 class='animated bounceInRight'>Newsletter</h2>
 	<p class='animated bounceInUp'> Monthly news roundup </p>
 
         
-        <p class='animated bounceInLeft'style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur 
+        <p class='animated bounceInLeft'style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
 
-adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-
-veniam, quis nostrud exercitation ullamco laboris nisi ut 
-
-aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id est 
+aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
 
-<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-
-
-shadow:2px 2px 4px #000000;">graphic_eq</i>
+<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-shadow:2px 2px 4px #000000;">graphic_eq</i>
 
          <div class="row animated fadeIn" >
         <button class="accordion">March 2018</button>
-                      <div class="panel" style="margin-bottom: 0px;" class="image" style="width: 100%; 
-
-height: 10px;">
-<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Mar_2018.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Mar_2018.JPG" height="50%" 
-
-width="50%"/><br/><span>#12 March 
+                      <div class="panel" style="margin-bottom: 0px;" class="image" style="width: 100%; height: 10px;">
+<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Mar_2018.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Mar_2018.JPG" height="50%" width="50%"/><br/><span>#12 March 
 
 2018</span></a>      
 <h4>Summary </h4>                   
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-
-ea commodo consequat. 
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-
-laborum."</p>
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                   </div>
 		<button class="accordion">February 2018</button>
                       <div class="panel" style="margin-bottom: 0px;">
-<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Feb_2018.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Feb_2018.JPG" height="50%" 
-
-width="50%"/><br/><span>#11 February 
+<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Feb_2018.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Feb_2018.JPG" height="50%" width="50%"/><br/><span>#11 February 
 
 2018</span></a>
-<h4>Summary </h4>                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+<h4>Summary </h4>                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
 
-do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris 
-
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-
-officia deserunt mollit 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
 
 anim id est laborum."</p>
                   </div>
 		<button class="accordion">January 2018</button>
                       <div class="panel" style="margin-bottom: 0px;">
-	<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Jan_2018.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Jan_2018.JPG" height="50%" 
-
-width="50%"/><br/><span>#10 January 
+	<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Jan_2018.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Jan_2018.JPG" height="50%" width="50%"/><br/><span>#10 January 
 
 2018</span></a>
-<h4>Summary </h4>                       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+<h4>Summary </h4>                       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris 
-
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-
-officia deserunt mollit 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
 
 anim id est laborum."</p>
                   </div>
 		<button class="accordion">December 2017</button>
                       <div class="panel" style="margin-bottom: 0px;">
-	<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Dec_2017.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Dec_2017.JPG" height="50%" 
-
-width="50%"/><br/><span>#9 December 
+	<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Dec_2017.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Dec_2017.JPG" height="50%" width="50%"/><br/><span>#9 December 
 
 2017</span></a>  
-<h4>Summary </h4>                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+<h4>Summary </h4>                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris nisi 
-
-ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id 
+ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
 
 est laborum."</p>
                   </div>
 		<button class="accordion">November 2017</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Nov_2017.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Nov_2017.JPG" height="50%" 
-
-width="50%"/><br/><span>#8 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Nov_2017.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Nov_2017.JPG" height="50%" width="50%"/><br/><span>#8 
 
 November 2017</span></a>  
-<h4>Summary </h4>                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+<h4>Summary </h4>                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris nisi 
-
-ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id 
+ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
 
 est laborum."</p>
                   </div>
 		<button class="accordion">October 2017</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Okt_2017.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/okt_2017.JPG" height="50%" 
-
-width="50%"/><br/><span>#7 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Okt_2017.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/okt_2017.JPG" height="50%" width="50%"/><br/><span>#7 
 
 October 2017</span></a>  
-<h4>Summary </h4>                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+<h4>Summary </h4>                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris nisi 
-
-ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id 
+ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
 
 est laborum."</p>
                   </div>
 		<button class="accordion">September 2017</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Sept_2017.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Sept_2017.JPG" height="50%" 
-
-width="50%"/><br/><span>#6 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/Sept_2017.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/Sept_2017.JPG" height="50%" width="50%"/><br/><span>#6 
 
 September 2017</span></a>	   
-<h4>Summary </h4>                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+<h4>Summary </h4>                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris nisi 
-
-ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id 
+ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
 
 est laborum."</p>
                   </div>
 		<button class="accordion">August 2017</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/aug_2017.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/aug_2017.JPG" height="50%" 
-
-width="50%"/><br/><span>#5 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/aug_2017.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/aug_2017.JPG" height="50%" width="50%"/><br/><span>#5 
 
 August 2017</span></a>            
-<h4>Summary </h4>           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+<h4>Summary </h4>           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
 
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-
-ullamco laboris nisi ut 
-
-aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id est 
+aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
                   </div>
 		<button class="accordion">July 2017</button>
                       <div class="panel" style="margin-bottom: 0px;">
-			<a class="gal_ia" 
-
-href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/jul_2017.pdf" target="_blank"><img 
-
-src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/jul_2017.JPG" height="50%" 
+			<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/jul_2017.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/jul_2017.JPG" height="50%" 
 
 width="50%"/><br/><span>#4 July 2017</span></a>   
-<h4>Summary </h4>                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+<h4>Summary </h4>                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris nisi 
-
-ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id 
+ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
 
 est laborum."</p>
                   </div>
 		<button class="accordion">June 2017</button>
                       <div class="panel" style="margin-bottom: 0px;">
-			<a class="gal_ia" 
-
-href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/jun_2017.pdf" target="_blank"><img 
-
-src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/jun_2017.JPG" height="50%" 
+			<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/jun_2017.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/jun_2017.JPG" height="50%" 
 
 width="50%"/><br/><span>#3 June 2017</span></a>	
     
-<h4>Summary </h4>                   <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+<h4>Summary </h4>                   <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris nisi 
-
-ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id 
+ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
 
 est laborum."</p>
                   </div>      
 		<button class="accordion">May 2017</button>
                       <div class="panel" style="margin-bottom: 0px;">
-			<a class="gal_ia" 
-
-href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/may_2017.pdf" target="_blank"><img 
-
-src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/may_2017.JPG" height="50%" 
+			<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/may_2017.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/may_2017.JPG" height="50%" 
 
 width="50%"/><br/><span>#2 May 2017</span></a>     
-<h4>Summary </h4>                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+<h4>Summary </h4>                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris nisi ut 
-
-aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id est 
+aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
                   </div>   
 		<button class="accordion">April 2017</button>
                       <div class="panel" style="margin-bottom: 0px;">
-			<a class="gal_ia" 
-
-href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/April_2017.pdf" target="_blank"><img 
-
-src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/April_2017_Cover.JPG" height="50%" 
+			<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/newsLetter/April_2017.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/newsLetter/April_2017_Cover.JPG" height="50%" 
 
 width="50%"/><br/><span>#1 April 2017</span></a> 
 <h4>Summary </h4> 			
-                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-
-laboris nisi ut aliquip ex 
-
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-
-mollit anim id est 
+ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
                   </div>                          
@@ -2327,9 +2266,7 @@ laborum."</p>
   <section id="quote" class="bg-parlex">
     <div class="parlex-back">
       <div class="container secPad text-center animatedParent">
-        <h3 class='animated growIn'>Geosciences and Reservoirs Development Division Monthly News Roundup 
-
-</h3>
+        <h3 class='animated growIn'>Geosciences and Reservoirs Development Division Monthly News Roundup </h3>
       </div>
       <!--/.container-->
     </div>
@@ -2340,215 +2277,105 @@ laborum."</p>
     <div class="container text-center w3-container">
       <div class="text-center animatedParent">
         <!-- Heading -->
-<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:rgba
-
-(173,197,45);text-shadow:2px 2px 4px #000000;">place</i>
+<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:rgba(173,197,45);text-shadow:2px 2px 4px #000000;">place</i>
         <h2 class='animated bounceInRight' > Field Overview</h2>
         <p class='animated bounceInUp' > Mahakam Field History </p>
-        <p class='animated bounceInLeft' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur 
+        <p class='animated bounceInLeft' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
 
-adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-
-veniam, quis nostrud exercitation ullamco laboris nisi ut 
-
-aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id est 
+aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
 
-<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-
-
-shadow:2px 2px 4px #000000;">graphic_eq</i>
+<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-shadow:2px 2px 4px #000000;">graphic_eq</i>
       </div>
 
       <div class="row animatedParent">
         <button class="accordion animated fadeInUpShort">Tunu Main Zone</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Tunu Main Zone.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Tunu Main Zone Milestones 
-
-Cover.JPG" height="50%" 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Tunu Main Zone.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Tunu Main Zone Milestones Cover.JPG" height="50%" 
 
 width="50%" /><br><span>Tunu Main Zone Milestones</span></a>     
- <h4>Summary </h4>                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+ <h4>Summary </h4>                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
 
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris 
-
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-
-officia deserunt mollit 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
 
 anim id est laborum."</p>
                   </div>
 		<button class="accordion animated fadeInUpShort">Tunu Shallow Zone</button>
                       <div class="panel" style="margin-bottom: 0px;">
-	<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Tunu Shallow Zone.pdf" 
+	<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Tunu Shallow Zone.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Tunu Shallow Zone Milestones Cover.JPG" height="50%" 
 
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Tunu Shallow Zone Milestones 
+width="50%" /><br><span>Tunu Shallow Zone 					Milestones</span></a>           
+<h4>Summary </h4>                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
 
-Cover.JPG" height="50%" 
-
-width="50%" /><br><span>Tunu Shallow Zone 					Milestones</span></a>       
-
-    
-<h4>Summary </h4>                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris nisi ut 
-
-aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id est 
+aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
                   </div>
 		<button class="accordion animated fadeInUpShort">Handil History</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Handil.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Handil History Cover.JPG" 
-
-height="50%" width="50%" 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Handil.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Handil History Cover.JPG" height="50%" width="50%" 
 
 /><br><span>Handil History</span></a>    
- <h4>Summary </h4>                       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+ <h4>Summary </h4>                       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
 
-do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris 
-
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-
-officia deserunt mollit 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
 
 anim id est laborum."</p>
                   </div>
 		<button class="accordion animated fadeInUpShort">Tambora Milestones</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Tambora.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Tambora Milestones Cover.JPG" 
-
-height="50%" width="50%" 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Tambora.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Tambora Milestones Cover.JPG" height="50%" width="50%" 
 
 /><br><span>Tambora Milestones</span></a> 
-  <h4>Summary </h4>                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+  <h4>Summary </h4>                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
 
-do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris 
-
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-
-officia deserunt mollit 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
 
 anim id est laborum."</p>
                   </div>
 		<button class="accordion animated fadeInUpShort">Peciko Milestones</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Peciko.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Peciko Milestone Cover.JPG" 
-
-height="50%" width="50%" 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Peciko.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Peciko Milestone Cover.JPG" height="50%" width="50%" 
 
 /><br><span>Peciko Milestone</span></a> 
-  <h4>Summary </h4>                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+  <h4>Summary </h4>                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
 
-do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris 
-
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-
-officia deserunt mollit 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
 
 anim id est laborum."</p>
                   </div>
 		<button class="accordion animated fadeInUpShort">Bekapai Milestones</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Bekapai.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Bekapai Milestones Cover.JPG" 
-
-height="50%" width="50%" 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Bekapai.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/Bekapai Milestones Cover.JPG" height="50%" width="50%" 
 
 /><br><span>Bekapai Milestones</span></a>
   <h4>Summary </h4>   
-                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-
-laboris nisi ut aliquip ex 
-
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-
-mollit anim id est 
+ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
                   </div>
 		<button class="accordion animated fadeInUpShort">Sisi Nubi Milestones</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Sisi Nubi.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/SisiNubi Milestones Cover.JPG" 
-
-height="50%" width="50%" 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/Sisi Nubi.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/SisiNubi Milestones Cover.JPG" height="50%" width="50%" 
 
 /><br><span>SisiNubi Milestones</span></a> 
-  <h4>Summary </h4>                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+  <h4>Summary </h4>                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
 
-do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris 
-
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-
-officia deserunt mollit 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
 
 anim id est laborum."</p>
                   </div>
 		<button class="accordion animated fadeInUpShort">South Mahakam Milestones</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/South Mahakam.pdf" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/South Mahakam Milestones 
-
-Cover.JPG" height="50%" 
+		<a class="gal_ia" href="http://tiweb/file_geosciences/GSR_4CND/poster/South Mahakam.pdf" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/poster/South Mahakam Milestones Cover.JPG" height="50%" 
 
 width="50%" /><br><span>South Mahakam Milestones</span></a>
-  <h4>Summary </h4>                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+  <h4>Summary </h4>                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco 
-
-laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
-
-esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
-
-qui officia deserunt 
+laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
 
 mollit anim id est laborum."</p>
              
@@ -2561,95 +2388,47 @@ mollit anim id est laborum."</p>
   <section id="experience">
     <div class="text-center animatedParent w3-container">
     <div class="container">
-    <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:rgba
-
-(60,109,178);text-shadow:2px 2px 4px #000000;">lightbulb_outline</i>
+    <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:rgba(60,109,178);text-shadow:2px 2px 4px #000000;">lightbulb_outline</i>
     	<h2 class='animated bounceInRight'>Our Development History</h2>
 	<p class='animated bounceInUp'> The Mahakam Fields Journey </p>
-        <p class='animated bounceInLeft' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur 
-
-adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
-
-veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-
-occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+        <p class='animated bounceInLeft' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
 
-<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-
-
-shadow:2px 2px 4px #000000;">graphic_eq</i>
+<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-shadow:2px 2px 4px #000000;">graphic_eq</i>
          <div class="row animated fadeInUpShort ">
         <button class="accordion">Tambora Oil Revival</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://phmweb/file_geosciences/GSR_4CND/Tambora Oil Revival.html" 
-
-target="_blank"><img 
-
-src="http://phmweb/file_geosciences/GSR_4CND/screen_img/Development_Story_Tambora_Oil_Revival.jpg" 
+		<a class="gal_ia" href="http://phmweb/file_geosciences/GSR_4CND/Tambora Oil Revival.html" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/screen_img/Development_Story_Tambora_Oil_Revival.jpg" 
 
 height="50%" width="50%" /></a>
-  <h4>Summary </h4>                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+  <h4>Summary </h4>                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
 
-do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-
-exercitation ullamco laboris 
-
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-
-officia deserunt mollit 
+nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
 
 anim id est laborum."</p>
                   </div>
 		<button class="accordion">Deepening Well TN-B82</button>   
                <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://phmweb/file_geosciences/GSR_4CND/Deepening Well TN-B82.html" 
-
-target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/screen_img/Development_Story_Deepening 
-
-Well_TN-B82.jpg" 
+		<a class="gal_ia" href="http://phmweb/file_geosciences/GSR_4CND/Deepening Well TN-B82.html" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/screen_img/Development_Story_Deepening Well_TN-B82.jpg" 
 
 height="50%" width="50%" /></a>
   <h4>Summary </h4>    
-                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-
-laboris nisi ut aliquip ex 
-
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-
-mollit anim id est 
+ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
                   </div>
 		<button class="accordion">Digital at Total</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://phmweb/file_geosciences/GSR_4CND/Digital at Total by Martin 
-
-Cyrot.html" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/screen_img/Digital at Total 
-
-by Martin Cyrot.jpg" 
+		<a class="gal_ia" href="http://phmweb/file_geosciences/GSR_4CND/Digital at Total by Martin Cyrot.html" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/screen_img/Digital at Total by Martin Cyrot.jpg" 
 
 height="50%" width="50%" /></a>
   <h4>Summary </h4>
-                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
 
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-
-laboris nisi ut aliquip ex 
-
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-
-mollit anim id est 
+ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
                   </div>
@@ -2678,99 +2457,69 @@ laborum."</p>
       <div class="row">
         <div class="heading text-center">
           <!-- Heading -->
-<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:black;text-
-
-shadow:2px 2px 4px #000000;">lightbulb_outline</i>
+<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:black;text-shadow:2px 2px 4px #000000;">lightbulb_outline</i>
           <h2 class='animated pulse' >Miscellaneous</h2>
 	  <p class='animated pulse'>Mahakam Field History </p>
-         <p class='animated fadeInLeftShort' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, 
+         <p class='animated fadeInLeftShort' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
 
-consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
-
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-
-aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-
-dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-
-deserunt mollit anim id est 
+aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
 
-<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-
-
-shadow:2px 2px 4px #000000;">graphic_eq</i>
+<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-shadow:2px 2px 4px #000000;">graphic_eq</i>
         <div class="row">
         <button class="accordion">Office Arrangement Competition</button>
                       <div class="panel" style="margin-bottom: 0px;">
-		<a class="gal_ia" href="http://phmweb/file_geosciences/GSR_4CND/Office Arrangement 
-
-Competition 2018.html" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/screen_img/Office 
-
-Arrangement Competition 
+		<a class="gal_ia" href="http://phmweb/file_geosciences/GSR_4CND/Office Arrangement Competition 2018.html" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/screen_img/Office Arrangement Competition 
 2018.jpg" height="50%" width="50%"  /></a>      
 
                 
   <h4>Summary </h4>
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-
-ea commodo consequat. 
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-
-laborum."</p>
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                   </div>
 		   
 	</div>
   </section >
   <section class="container text-center">
-  <h2> Our Team </h2>
-<p> </p>
+  <h2>Responsive "Meet The Team" Section</h2>
+<p>Resize the browser window to see the effect.</p>
 <br>
 
 <div class="row animatedParent ">
   <div class="column text-center">
     <div class="card">
-      <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-
-
-size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+      <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
       <div class="container">
-        <h2>Aldyth SUKAPRADJA</h2>
-        <p class="title">Web & Apps Developer</p>
-        <p>GSR/DEV/TUN/GTS</p>
-        <p>aldyth.sukapradja@pertamina.com</p>
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
   <div class="column animatedParent">
     <div class="card">
-     <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-
-
-size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+     <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
       <div class="container">
-        <h2>Aldyth SUKAPRADJA</h2>
-        <p class="title">Web & Apps Developer</p>
-        <p>GSR/DEV/TUN/GTS</p>
-        <p>aldyth.sukapradja@pertamina.com</p>
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
   </div>
   <div class="column">
     <div class="card">
-     <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-
-
-size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+     <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
       <div class="container">
-        <h2>Aldyth SUKAPRADJA</h2>
-        <p class="title">Web & Apps Developer</p>
-        <p>GSR/DEV/TUN/GTS</p>
-        <p>aldyth.sukapradja@pertamina.com</p>
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
@@ -2806,40 +2555,24 @@ size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
 	  <div class="modal-lg modal-dialog" role="document" style="width: 750px;">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-
-
-hidden="true">&times;</span></button>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 	        <h4 class="modal-title" id="myModalLabel">Tata Cara</h4>
 	      </div>
 
-	      <div class="modal-body" style="font-family: 'Open Sans', sans-serif;font-size: 14px;color: 
-
-#666;line-height: 24px;">
+	      <div class="modal-body" style="font-family: 'Open Sans', sans-serif;font-size: 14px;color: #666;line-height: 24px;">
 	        	
           <b>Persyaratan Umum</b>
           <ul style="list-style-type:decimal; margin-left:16px;">
-            <!--<li>Aplikasi secara online untuk Seleksi Penerimaan Calon Karyawan akan dilaksanakan pada 
-
-tanggal 21-08-2017 mulai pukul 00:00:00 WIB dan berakhir pada tanggal 02-09-2017 pukul 23:59:59 
-
-WIB.</li>-->
-            <li>Hanya pelamar yang memenuhi persyaratan yang akan dihubungi untuk diikutsertakan dalam 
-
-proses seleksi selanjutnya.</li>
+            <!--<li>Aplikasi secara online untuk Seleksi Penerimaan Calon Karyawan akan dilaksanakan pada tanggal 21-08-2017 mulai pukul 00:00:00 WIB dan berakhir pada tanggal 02-09-2017 pukul 23:59:59 WIB.</li>-->
+            <li>Hanya pelamar yang memenuhi persyaratan yang akan dihubungi untuk diikutsertakan dalam proses seleksi selanjutnya.</li>
           </ul>
 
           <p>Syarat dan Ketentuan :</p>
           <b>Kebutuhan Minimum</b>
-          <p style="color:#666;">Untuk dapat melakukan aplikasi secara online dengan baik, spesifikasi 
-
-Komputer berikut merupakan kebutuhan minimum yang harus dipenuhi:</p>
+          <p style="color:#666;">Untuk dapat melakukan aplikasi secara online dengan baik, spesifikasi Komputer berikut merupakan kebutuhan minimum yang harus dipenuhi:</p>
           <ul style="list-style-type:decimal; margin-left:16px;">
             <li>Operating System Windows based minimum Windows XP atau versi terbaru.</li>
-            <li>Harus menggunakan web browser minimal Internet Explorer 10 atau versi terbaru, web browser 
-
-Mozilla Firefox minimal versi 3.0 atau versi terbaru, web browser Google Chrome minimal versi 16 atau versi 
-
-terbaru.</li>
+            <li>Harus menggunakan web browser minimal Internet Explorer 10 atau versi terbaru, web browser Mozilla Firefox minimal versi 3.0 atau versi terbaru, web browser Google Chrome minimal versi 16 atau versi terbaru.</li>
             <li>Cookies harus aktif.</li>
             <li>Javascript harus aktif dan berfungsi.</li>
             <li>Resolusi Layar minimal 1024x768.</li>
@@ -2848,77 +2581,41 @@ terbaru.</li>
           <br/>
           <h4><span style="background-color:#c53e3e;color:#ffffff">PENTING UNTUK DIPERHATIKAN</span></h4>
             <ul style="list-style-type:decimal; margin-left:16px;">
-              <li>Yakinkan bahwa tidak ada aplikasi-aplikasi lain yang sedang berjalan seperti; pemutar 
-
-musik, program chatting, dan web browser selain pendaftaran aplikasi secara online.</li>
-              <li>Yakinkan Anda telah memasukkan semua data yang diperlukan secara baik dan benar sebelum 
-
-Anda mengirimkan aplikasi Anda.</li>
-              <li>Untuk email, harap mengisi kolom ini dengan baik dan benar. Periksa kembali pengejaan 
-
-alamat email Anda sebelum mengirimkan aplikasi Anda. Pastikan Anda hanya memasukkan 1 alamat email saja. 
-
-Kesalahan dalam penulisan 
+              <li>Yakinkan bahwa tidak ada aplikasi-aplikasi lain yang sedang berjalan seperti; pemutar musik, program chatting, dan web browser selain pendaftaran aplikasi secara online.</li>
+              <li>Yakinkan Anda telah memasukkan semua data yang diperlukan secara baik dan benar sebelum Anda mengirimkan aplikasi Anda.</li>
+              <li>Untuk email, harap mengisi kolom ini dengan baik dan benar. Periksa kembali pengejaan alamat email Anda sebelum mengirimkan aplikasi Anda. Pastikan Anda hanya memasukkan 1 alamat email saja. Kesalahan dalam penulisan 
 
 alamat email akan mengakibatkan Anda tidak akan menerima informasi selanjutnya dari kami.</li>
-              <li>Untuk nomor handphone, isilah kolom ini dengan nomor handphone yang Anda miliki. Harap 
+              <li>Untuk nomor handphone, isilah kolom ini dengan nomor handphone yang Anda miliki. Harap mengisi kolom ini dengan baik dan benar. Periksa kembali penulisan nomor handphone Anda sebelum mengirimkan aplikasi Anda. Kesalahan 
 
-mengisi kolom ini dengan baik dan benar. Periksa kembali penulisan nomor handphone Anda sebelum mengirimkan 
-
-aplikasi Anda. Kesalahan 
-
-dalam penulisan nomor handphone akan mengakibatkan Anda tidak akan menerima informasi selanjutnya dari 
-
-kami.</li>
+dalam penulisan nomor handphone akan mengakibatkan Anda tidak akan menerima informasi selanjutnya dari kami.</li>
             </ul>
-            <!--<input type="checkbox" id="check"> Saya telah membaca dan mengerti seluruh petunjuk tata 
-
-cara pengisian. Jika dikemudian hari setelah diterima sebagai pegawai PT Pertamina Persero ditemukan adanya 
-
-pemalsuan data, maka PT 
+            <!--<input type="checkbox" id="check"> Saya telah membaca dan mengerti seluruh petunjuk tata cara pengisian. Jika dikemudian hari setelah diterima sebagai pegawai PT Pertamina Persero ditemukan adanya pemalsuan data, maka PT 
 Pertamina Persero berhak untuk mengeluarkan saya dari status kepegawaian Pertamina.-->
             <div class="col-md-12">
-              <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-
-
-height:20px;">
+              <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-height:20px;">
               <label style="font-size:1em">
                 <input type="checkbox" id="confirm1" name="confirm1" value="agree1" />
                   <!--<span class="cr"><i class="cr-icon fa fa-check"></i></span>-->
-                  Saya menyatakan bahwa seluruh informasi yang saya berikan benar adanya dan saya akan 
-
-menyediakan dokumen-dokumen pendukung terkait jika diminta dan Saya menyetujui bahwa seluruh keputusan 
-
-dalam proses dan hasil 
+                  Saya menyatakan bahwa seluruh informasi yang saya berikan benar adanya dan saya akan menyediakan dokumen-dokumen pendukung terkait jika diminta dan Saya menyetujui bahwa seluruh keputusan dalam proses dan hasil 
 
 assessmen dari pihak panitia adalah <b>final</b> dan <b>tidak dapat diganggu gugat</b>.
                 </label>
               </div>
-              <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-
-
-height:20px;">
+              <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-height:20px;">
                 <label style="font-size:1em">
                   <input type="checkbox" id="confirm2" name="confirm2" value="agree2" />
                   <!--<span class="cr"><i class="cr-icon fa fa-check"></i></span>-->
-                  Saya menyatakan dengan sebenarnya bahwa saya <b>BERSEDIA</b> ditempatkan di seluruh 
+                  Saya menyatakan dengan sebenarnya bahwa saya <b>BERSEDIA</b> ditempatkan di seluruh wilayah kerja <b>PT. PERTAMINA (Persero)</b>. Apabila dikemudian hari saya menolak penempatan yang telah ditetapkan oleh pihak <b>PT. 
 
-wilayah kerja <b>PT. PERTAMINA (Persero)</b>. Apabila dikemudian hari saya menolak penempatan yang telah 
-
-ditetapkan oleh pihak <b>PT. 
-
-PERTAMINA (Persero)</b> maka saya menyatakan <b>MENGUNDURKAN DIRI</b> dan menerima konsekuensi bahwa saya 
-
-tidak dapat mengikuti proses seleksi calon pekerja <b>PT. PERTAMINA (Persero)</b> selama 3 tahun kedepan.
+PERTAMINA (Persero)</b> maka saya menyatakan <b>MENGUNDURKAN DIRI</b> dan menerima konsekuensi bahwa saya tidak dapat mengikuti proses seleksi calon pekerja <b>PT. PERTAMINA (Persero)</b> selama 3 tahun kedepan.
                 </label>
               </div>
 			      </div>
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" style="background: #ed1b2f;color:#ffffff" 
-
-data-dismiss="modal">Batal</button>
-	        <button type="button" class="btn btn-primary" id="lanjutkan" style="background: #1e67ab;" 
-
-disabled>Lanjutkan <i class="fa fa-level-up" aria-hidden="true"></i></button>
+	        <button type="button" class="btn btn-default" style="background: #ed1b2f;color:#ffffff" data-dismiss="modal">Batal</button>
+	        <button type="button" class="btn btn-primary" id="lanjutkan" style="background: #1e67ab;" disabled>Lanjutkan <i class="fa fa-level-up" aria-hidden="true"></i></button>
 	      </div>
 	    </div>
 	  </div>
@@ -2928,41 +2625,25 @@ disabled>Lanjutkan <i class="fa fa-level-up" aria-hidden="true"></i></button>
     <div class="modal-lg modal-dialog" role="document" style="width: 750px;">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-
-
-hidden="true">&times;</span></button>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="myModalLabel">Tata Cara</h4>
         </div>
 
-        <div class="modal-body" style="font-family: 'Open Sans', sans-serif;font-size: 14px;color: 
-
-#666;line-height: 24px;">
+        <div class="modal-body" style="font-family: 'Open Sans', sans-serif;font-size: 14px;color: #666;line-height: 24px;">
 
           <b>Persyaratan Umum</b>
           <ul style="list-style-type:decimal; margin-left:16px;">
-            <!--<li>Aplikasi secara online untuk Seleksi Penerimaan Calon Karyawan akan dilaksanakan pada 
-
-tanggal 21-08-2017 mulai pukul 00:00:00 WIB dan berakhir pada tanggal 02-09-2017 pukul 23:59:59 
-
-WIB.</li>-->
-            <li>Hanya pelamar yang memenuhi persyaratan yang akan dihubungi untuk diikutsertakan dalam 
-
-proses seleksi selanjutnya.</li>
+            <!--<li>Aplikasi secara online untuk Seleksi Penerimaan Calon Karyawan akan dilaksanakan pada tanggal 21-08-2017 mulai pukul 00:00:00 WIB dan berakhir pada tanggal 02-09-2017 pukul 23:59:59 WIB.</li>-->
+            <li>Hanya pelamar yang memenuhi persyaratan yang akan dihubungi untuk diikutsertakan dalam proses seleksi selanjutnya.</li>
             <li>Bagi yang sudah pernah mendaftar, mohon untuk tidak melakukan pendaftaran kembali.</li>
           </ul>
 
           <p>Syarat dan Ketentuan :</p>
           <b>Kebutuhan Minimum</b>
-          <p style="color:#666;">Untuk dapat melakukan aplikasi secara online dengan baik, spesifikasi 
-
-Komputer berikut merupakan kebutuhan minimum yang harus dipenuhi:</p>
+          <p style="color:#666;">Untuk dapat melakukan aplikasi secara online dengan baik, spesifikasi Komputer berikut merupakan kebutuhan minimum yang harus dipenuhi:</p>
           <ul style="list-style-type:decimal; margin-left:16px;">
             <li>Operating System Windows based minimum Windows XP atau versi terbaru.</li>
-            <li>Harus menggunakan web browser minimal Internet Explorer 10 atau versi terbaru, web browser 
-
-Mozilla Firefox minimal versi 3.0 atau versi terbaru, web browser Google Chrome minimal versi 16 atau versi 
-
-terbaru.</li>
+            <li>Harus menggunakan web browser minimal Internet Explorer 10 atau versi terbaru, web browser Mozilla Firefox minimal versi 3.0 atau versi terbaru, web browser Google Chrome minimal versi 16 atau versi terbaru.</li>
             <li>Cookies harus aktif.</li>
             <li>Javascript harus aktif dan berfungsi.</li>
             <li>Resolusi Layar minimal 1024x768.</li>
@@ -2971,77 +2652,41 @@ terbaru.</li>
           <br/>
           <h4><span style="background-color:#c53e3e;color:#ffffff">PENTING UNTUK DIPERHATIKAN</span></h4>
           <ul style="list-style-type:decimal; margin-left:16px;">
-            <li>Yakinkan bahwa tidak ada aplikasi-aplikasi lain yang sedang berjalan seperti; pemutar 
-
-musik, program chatting, dan web browser selain pendaftaran aplikasi secara online.</li>
-            <li>Yakinkan Anda telah memasukkan semua data yang diperlukan secara baik dan benar sebelum 
-
-Anda mengirimkan aplikasi Anda.</li>
-            <li>Untuk email, harap mengisi kolom ini dengan baik dan benar. Periksa kembali pengejaan 
-
-alamat email Anda sebelum mengirimkan aplikasi Anda. Pastikan Anda hanya memasukkan 1 alamat email saja. 
-
-Kesalahan dalam penulisan 
+            <li>Yakinkan bahwa tidak ada aplikasi-aplikasi lain yang sedang berjalan seperti; pemutar musik, program chatting, dan web browser selain pendaftaran aplikasi secara online.</li>
+            <li>Yakinkan Anda telah memasukkan semua data yang diperlukan secara baik dan benar sebelum Anda mengirimkan aplikasi Anda.</li>
+            <li>Untuk email, harap mengisi kolom ini dengan baik dan benar. Periksa kembali pengejaan alamat email Anda sebelum mengirimkan aplikasi Anda. Pastikan Anda hanya memasukkan 1 alamat email saja. Kesalahan dalam penulisan 
 
 alamat email akan mengakibatkan Anda tidak akan menerima informasi selanjutnya dari kami.</li>
-            <li>Untuk nomor handphone, isilah kolom ini dengan nomor handphone yang Anda miliki. Harap 
+            <li>Untuk nomor handphone, isilah kolom ini dengan nomor handphone yang Anda miliki. Harap mengisi kolom ini dengan baik dan benar. Periksa kembali penulisan nomor handphone Anda sebelum mengirimkan aplikasi Anda. Kesalahan 
 
-mengisi kolom ini dengan baik dan benar. Periksa kembali penulisan nomor handphone Anda sebelum mengirimkan 
-
-aplikasi Anda. Kesalahan 
-
-dalam penulisan nomor handphone akan mengakibatkan Anda tidak akan menerima informasi selanjutnya dari 
-
-kami.</li>
+dalam penulisan nomor handphone akan mengakibatkan Anda tidak akan menerima informasi selanjutnya dari kami.</li>
           </ul>
-          <!--<input type="checkbox" id="check"> Saya telah membaca dan mengerti seluruh petunjuk tata cara 
-
-pengisian. Jika dikemudian hari setelah diterima sebagai pegawai PT Pertamina Persero ditemukan adanya 
-
-pemalsuan data, maka PT 
+          <!--<input type="checkbox" id="check"> Saya telah membaca dan mengerti seluruh petunjuk tata cara pengisian. Jika dikemudian hari setelah diterima sebagai pegawai PT Pertamina Persero ditemukan adanya pemalsuan data, maka PT 
 Pertamina Persero berhak untuk mengeluarkan saya dari status kepegawaian Pertamina.-->
           <div class="col-md-12">
-            <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-
-
-height:20px;">
+            <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-height:20px;">
               <label style="font-size:1em">
                 <input type="checkbox" id="confirm3" name="confirm1" value="agree1" />
                 <!--<span class="cr"><i class="cr-icon fa fa-check"></i></span>-->
-                Saya menyatakan bahwa seluruh informasi yang saya berikan benar adanya dan saya akan 
-
-menyediakan dokumen-dokumen pendukung terkait jika diminta dan Saya menyetujui bahwa seluruh keputusan 
-
-dalam proses dan hasil assessmen 
+                Saya menyatakan bahwa seluruh informasi yang saya berikan benar adanya dan saya akan menyediakan dokumen-dokumen pendukung terkait jika diminta dan Saya menyetujui bahwa seluruh keputusan dalam proses dan hasil assessmen 
 
 dari pihak panitia adalah <b>final</b> dan <b>tidak dapat diganggu gugat</b>.
               </label>
             </div>
-            <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-
-
-height:20px;">
+            <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-height:20px;">
               <label style="font-size:1em">
                 <input type="checkbox" id="confirm4" name="confirm2" value="agree2" />
                 <!--<span class="cr"><i class="cr-icon fa fa-check"></i></span>-->
-                Saya menyatakan dengan sebenarnya bahwa saya <b>BERSEDIA</b> ditempatkan di seluruh wilayah 
+                Saya menyatakan dengan sebenarnya bahwa saya <b>BERSEDIA</b> ditempatkan di seluruh wilayah kerja <b>PT. PERTAMINA (Persero)</b>. Apabila dikemudian hari saya menolak penempatan yang telah ditetapkan oleh pihak <b>PT. 
 
-kerja <b>PT. PERTAMINA (Persero)</b>. Apabila dikemudian hari saya menolak penempatan yang telah ditetapkan 
-
-oleh pihak <b>PT. 
-
-PERTAMINA (Persero)</b> maka saya menyatakan <b>MENGUNDURKAN DIRI</b> dan menerima konsekuensi bahwa saya 
-
-tidak dapat mengikuti proses seleksi calon pekerja <b>PT. PERTAMINA (Persero)</b> selama 3 tahun kedepan.
+PERTAMINA (Persero)</b> maka saya menyatakan <b>MENGUNDURKAN DIRI</b> dan menerima konsekuensi bahwa saya tidak dapat mengikuti proses seleksi calon pekerja <b>PT. PERTAMINA (Persero)</b> selama 3 tahun kedepan.
               </label>
             </div>
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" style="background: #ed1b2f;color:#ffffff" data-
-
-dismiss="modal">Batal</button>
-          <button type="button" class="btn btn-primary" id="lanjutkan_fg" style="background: #1e67ab;" 
-
-disabled>Lanjutkan <i class="fa fa-level-up" aria-hidden="true"></i></button>
+          <button type="button" class="btn btn-default" style="background: #ed1b2f;color:#ffffff" data-dismiss="modal">Batal</button>
+          <button type="button" class="btn btn-primary" id="lanjutkan_fg" style="background: #1e67ab;" disabled>Lanjutkan <i class="fa fa-level-up" aria-hidden="true"></i></button>
         </div>
       </div>
     </div>
@@ -3051,22 +2696,12 @@ disabled>Lanjutkan <i class="fa fa-level-up" aria-hidden="true"></i></button>
     <script src="http://pertamina.asi-rekrutmen.com/media/js/jquery-1.11.0.min.js"></script>
   <![endif]-->
   <script src="http://pertamina.asi-rekrutmen.com/media/js/modernizr-latest.js"></script>
-  <script src="http://pertamina.asi-rekrutmen.com/media/js/jquery-1.8.2.min.js" 
-
-type="text/javascript"></script>
-  <script src="http://pertamina.asi-rekrutmen.com/media/js/bootstrap.min.js" 
-
-type="text/javascript"></script>
-  <script src="http://pertamina.asi-rekrutmen.com/media/js/jquery.isotope.min.js" 
-
-type="text/javascript"></script>
-  <script src="http://pertamina.asi-rekrutmen.com/media/js/fancybox/jquery.fancybox.pack.js" 
-
-type="text/javascript"></script>
+  <script src="http://pertamina.asi-rekrutmen.com/media/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+  <script src="http://pertamina.asi-rekrutmen.com/media/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="http://pertamina.asi-rekrutmen.com/media/js/jquery.isotope.min.js" type="text/javascript"></script>
+  <script src="http://pertamina.asi-rekrutmen.com/media/js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
   <script src="http://pertamina.asi-rekrutmen.com/media/js/jquery.nav.js" type="text/javascript"></script>
-  <script src="http://pertamina.asi-rekrutmen.com/media/js/jquery.cslider.js" 
-
-type="text/javascript"></script>
+  <script src="http://pertamina.asi-rekrutmen.com/media/js/jquery.cslider.js" type="text/javascript"></script>
   <script src="http://pertamina.asi-rekrutmen.com/media/js/custom.js" type="text/javascript"></script>
   <script src="http://pertamina.asi-rekrutmen.com/media/js/owl-carousel/owl.carousel.js"></script>
 
@@ -3135,9 +2770,7 @@ type="text/javascript"></script>
     var mobile_no   = $("#mobile_no").val();
     var type        = $("#jenis_pertanyaan").val();
     var message     = $("#message").val();
-    var data        = 
-
-{"nama":name,"email":email,"jenis_pertanyaan":type,"mobile_no":mobile_no,"message":message};
+    var data        = {"nama":name,"email":email,"jenis_pertanyaan":type,"mobile_no":mobile_no,"message":message};
     $.ajax({
       url : "http://pertamina.asi-rekrutmen.com/send_email",
       type : "POST",
@@ -3145,17 +2778,13 @@ type="text/javascript"></script>
       data : data,
       success : function( data ) {
         if(data.status) {
-          $(".message-result").fadeIn().html(data.message).removeClass("alert-danger").addClass("alert-
-
-success");
+          $(".message-result").fadeIn().html(data.message).removeClass("alert-danger").addClass("alert-success");
 //          setTimeout(function(event) {
 //              location.reload();
 //          },800);
         }
         else{
-          $(".message-result").fadeIn().html(data.message).removeClass("alert-success").addClass("alert-
-
-danger");
+          $(".message-result").fadeIn().html(data.message).removeClass("alert-success").addClass("alert-danger");
 //          setTimeout(function(event){
 //              $(".message-result").fadeOut();
 //          },800);
@@ -3175,13 +2804,12 @@ danger");
  * I utilise the jQuery.appear plugin within this javascript file so here is a link to that too
  * https://github.com/morr/jquery.appear
  *
- * I also utilise the jQuery.doTimeout plugin for the data-sequence functionality so here is a link back to 
-
-them.
+ * I also utilise the jQuery.doTimeout plugin for the data-sequence functionality so here is a link back to them.
  * http://benalman.com/projects/jquery-dotimeout-plugin/
  */
 (function($) {
   var selectors = [];
+
   var check_binded = false;
   var check_lock = false;
   var defaults = {
@@ -3189,14 +2817,18 @@ them.
     force_process: false
   }
   var $window = $(window);
+
   var $prior_appeared;
+
   function process() {
     check_lock = false;
     for (var index = 0; index < selectors.length; index++) {
       var $appeared = $(selectors[index]).filter(function() {
         return $(this).is(':appeared');
       });
+
       $appeared.trigger('appear', [$appeared]);
+
       if ($prior_appeared) {
         
         var $disappeared = $prior_appeared.not($appeared);
@@ -3205,17 +2837,20 @@ them.
       $prior_appeared = $appeared;
     }
   }
+
   // "appeared" custom filter
   $.expr[':']['appeared'] = function(element) {
     var $element = $(element);
     if (!$element.is(':visible')) {
       return false;
     }
+
     var window_left = $window.scrollLeft();
     var window_top = $window.scrollTop();
     var offset = $element.offset();
     var left = offset.left;
     var top = offset.top;
+
     if (top + $element.height() >= window_top &&
         top - ($element.data('appear-top-offset') || 0) <= window_top + $window.height() &&
         left + $element.width() >= window_left &&
@@ -3225,6 +2860,7 @@ them.
       return false;
     }
   }
+
   $.fn.extend({
     // watching for element's appearance in browser viewport
     appear: function(options) {
@@ -3236,11 +2872,14 @@ them.
             return;
           }
           check_lock = true;
+
           setTimeout(process, opts.interval);
         };
+
         $(window).scroll(on_check).resize(on_check);
         check_binded = true;
       }
+
       if (opts.force_process) {
         setTimeout(process, opts.interval);
       }
@@ -3248,6 +2887,7 @@ them.
       return $(selector);
     }
   });
+
   $.extend({
     // force elements's appearance check
     force_appear: function() {
@@ -3259,6 +2899,9 @@ them.
     }
   });
 })(jQuery);
+
+
+
 /*!
  * jQuery doTimeout: Like setTimeout, but better! - v1.0 - 3/3/2010
  * http://benalman.com/projects/jquery-dotimeout-plugin/
@@ -3267,6 +2910,7 @@ them.
  * Dual licensed under the MIT and GPL licenses.
  * http://benalman.com/about/license/
  */
+
 // Script: jQuery doTimeout: Like setTimeout, but better!
 //
 // *Version: 1.0, Last updated: 3/3/2010*
@@ -3309,6 +2953,7 @@ them.
 //       to poll.
 // 0.4 - (7/15/2009) Made the "id" argument optional, some other minor tweaks
 // 0.3 - (6/25/2009) Initial release
+
 (function($){
   '$:nomunge'; // Used by YUI compressor.
   
@@ -3542,15 +3187,21 @@ them.
   };
   
 })(jQuery);
+
+
+
+
 //CSS3 Animate-it
 $('.animatedParent').appear();
 $('.animatedClick').click(function(){
   var target = $(this).attr('data-target');
+
   
   if($(this).attr('data-sequence') != undefined){
     var firstId = $("."+target+":first").attr('data-id');
     var lastId = $("."+target+":last").attr('data-id');
     var number = firstId;
+
     //Add or remove the class
     if($("."+target+"[data-id="+ number +"]").hasClass('go')){
       $("."+target+"[data-id="+ number +"]").addClass('goAway');
@@ -3572,8 +3223,10 @@ $('.animatedClick').click(function(){
         $("."+target+"[data-id="+ number +"]").addClass('go');
         $("."+target+"[data-id="+ number +"]").removeClass('goAway');
       }
+
       //increment
       ++number;
+
       //continute looping till reached last ID
       if(number <= lastId){return true;}
     });
@@ -3587,18 +3240,22 @@ $('.animatedClick').click(function(){
     }
   } 
 });
+
 $(document.body).on('appear', '.animatedParent', function(e, $affected){
   var ele = $(this).find('.animated');
   var parent = $(this);
   
+
   if(parent.attr('data-sequence') != undefined){
     
     var firstId = $(this).find('.animated:first').attr('data-id');
     var number = firstId;
     var lastId = $(this).find('.animated:last').attr('data-id');
+
     $(parent).find(".animated[data-id="+ number +"]").addClass('go');
     number ++;
     delay = Number(parent.attr('data-sequence'));
+
     $.doTimeout(delay, function(){
       $(parent).find(".animated[data-id="+ number +"]").addClass('go');
       ++number;
@@ -3609,14 +3266,17 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
   }
   
 });
+
  $(document.body).on('disappear', '.animatedParent', function(e, $affected) {
   if(!$(this).hasClass('animateOnce')){
     $(this).find('.animated').removeClass('go');
    }
  });
+
  $(window).on('load',function(){
   $.force_appear();
  });
+
 </script>
 
 
