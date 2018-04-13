@@ -40,7 +40,25 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && 
 
+location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
   <style>
 
 html {
@@ -2049,6 +2067,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
               <li><a href="#skills" class="scroll-link">Field Overview</a></li>
               <li><a href="#experience" class="scroll-link">Our Development Story</a></li>
               <li><a href="#contactUs" class="scroll-link">Miscellaneous</a></li>
+	      <li><a href="#team" class="scroll-link">Team</a></li>
             </ul> </center>
 <!--          <img width="15%" src="--><!--media/images/logo_pertamina.png" class="ribbon"/>-->
 <!--          <div class="sticky-image-wrapper">-->
@@ -2482,7 +2501,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 		   
 	</div>
   </section >
-  <section class="container text-center">
+  <section id="team" class="container text-center">
   <h2> Our Team </h2>
 <p GSR | DevNews </p>
 <br>
