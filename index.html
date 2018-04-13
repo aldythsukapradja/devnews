@@ -1,3 +1,4 @@
+
 <!doctype html>
 <!--[if IE 7 ]>
   <html lang="en-gb" class="isie ie7 oldie no-js">
@@ -41,7 +42,6 @@ rekrutmen.com/media/js/fancybox/jquery.fancybox.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/css/da-slider.css" 
 
 />
-  
   <!-- Owl Carousel Assets -->
   <link rel="stylesheet" type="text/css" href="http://pertamina.asi-rekrutmen.com/media/js/owl-
 
@@ -55,83 +55,69 @@ rel="stylesheet">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <style>
-
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
+html {
+  box-sizing: border-box;
 }
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
+.column2 {
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+ text-align: center;
+margin: auto;
+background: white
+}
+.container {
+  padding: 0 16px;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.title {
+  color: grey;
+}
+.button {
+  border: none;
+  outline: 0;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  padding: 8px;
+  color: white;
+  background-color: rgba(186,49,59);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 25px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
-.active {
-  background-color: #717171;
+.button:hover {
+  background-color: #555;
+box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 99999999s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-
 /*animations*/
-
 /******************
 * Bounce in right *
 *******************/
-
 .animated { 
     -webkit-animation-duration: 1s; 
     animation-duration: 1s; 
@@ -156,7 +142,6 @@ img {vertical-align: middle;}
     -webkit-animation-fill-mode: both; 
     animation-fill-mode: both; 
 }
-
 /* Added by Andy Meetan */
 .delay-250 {
     -webkit-animation-delay:0.25s;
@@ -236,7 +221,6 @@ img {vertical-align: middle;}
     -o-animation-delay:3.5s;
     animation-delay:3.5s;
 }
-
 .bounceInRight, .bounceInLeft, .bounceInUp, .bounceInDown{
     opacity:0;
     -webkit-transform: translateX(400px); 
@@ -247,19 +231,16 @@ img {vertical-align: middle;}
     -webkit-transform: translateX(400px); 
     transform: translateX(400px); 
 }
-
 .flipInX, .flipInY, .rotateIn, .rotateInUpLeft, .rotateInUpRight, .rotateInDownLeft, .rotateDownUpRight, 
 
 .rollIn{
     opacity:0;
 }
-
 .lightSpeedInRight, .lightSpeedInLeft{
     opacity:0;
     -webkit-transform: translateX(400px); 
     transform: translateX(400px); 
 }
-
 /***********
 * bounceIn *
 ************/
@@ -268,50 +249,40 @@ img {vertical-align: middle;}
         opacity: 0; 
         -webkit-transform: scale(.3); 
     } 
-
     50% { 
         opacity: 1; 
         -webkit-transform: scale(1.05); 
     } 
-
     70% { 
         -webkit-transform: scale(.9); 
     } 
-
     100% { 
          -webkit-transform: scale(1); 
     } 
 } 
-
 @keyframes bounceIn { 
     0% { 
         opacity: 0; 
         transform: scale(.3); 
     } 
-
     50% { 
         opacity: 1; 
         transform: scale(1.05); 
     } 
-
     70% { 
         transform: scale(.9); 
     } 
-
     100% { 
         transform: scale(1); 
     } 
 } 
-
 .bounceIn.go { 
     -webkit-animation-name: bounceIn; 
     animation-name: bounceIn; 
 }
-
 /****************
 * bounceInRight *
 ****************/
-
 @-webkit-keyframes bounceInRight { 
     0% { 
         opacity: 0; 
@@ -331,7 +302,6 @@ img {vertical-align: middle;}
         -webkit-transform: translateX(0); 
     } 
 } 
-
 @keyframes bounceInRight { 
     0% { 
         opacity: 0; 
@@ -351,17 +321,13 @@ img {vertical-align: middle;}
         transform: translateX(0); 
     } 
 } 
-
-
 .bounceInRight.go { 
     -webkit-animation-name: bounceInRight; 
     animation-name: bounceInRight; 
 }
-
 /******************
 * Bounce in left *
 *******************/
-
 @-webkit-keyframes bounceInLeft { 
     0% { 
         opacity: 0; 
@@ -381,7 +347,6 @@ img {vertical-align: middle;}
         -webkit-transform: translateX(0); 
     } 
 } 
-
 @keyframes bounceInLeft { 
     0% { 
         opacity: 0; 
@@ -401,16 +366,13 @@ img {vertical-align: middle;}
         transform: translateX(0); 
     } 
 } 
-
 .bounceInLeft.go { 
     -webkit-animation-name: bounceInLeft; 
     animation-name: bounceInLeft; 
 }
-
 /******************
 * Bounce in up *
 *******************/
-
 @-webkit-keyframes bounceInUp { 
     0% { 
         opacity: 0; 
@@ -430,7 +392,6 @@ img {vertical-align: middle;}
         -webkit-transform: translateY(0); 
     } 
 } 
-
 @keyframes bounceInUp { 
     0% { 
         opacity: 0; 
@@ -450,17 +411,13 @@ img {vertical-align: middle;}
         transform: translateY(0); 
     } 
 } 
-
 .bounceInUp.go { 
     -webkit-animation-name: bounceInUp; 
     animation-name: bounceInUp; 
 }
-
-
 /******************
 * Bounce in down *
 *******************/
-
 @-webkit-keyframes bounceInDown { 
     0% { 
         opacity: 0; 
@@ -480,7 +437,6 @@ img {vertical-align: middle;}
         -webkit-transform: translateY(0); 
     } 
 } 
-
 @keyframes bounceInDown { 
     0% { 
         opacity: 0; 
@@ -500,13 +456,10 @@ img {vertical-align: middle;}
         transform: translateY(0); 
     } 
 } 
-
 .bounceInDown.go { 
     -webkit-animation-name: bounceInDown; 
     animation-name: bounceInDown; 
 }
-
-
 /**********
 * Fade In *
 **********/ 
@@ -527,11 +480,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeIn; 
     animation-name: fadeIn; 
 }
-
 /**********
 * Grow in *
 ***********/
-
 @-webkit-keyframes growIn { 
     0% { 
         -webkit-transform: scale(0.2); 
@@ -561,7 +512,6 @@ img {vertical-align: middle;}
     } 
 } 
 .growIn { 
-
     -webkit-transform: scale(0.2);
     transform: scale(0.2);
     opacity:0;
@@ -570,7 +520,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: growIn; 
     animation-name: growIn; 
 }
-
 /********
 * Shake *
 ********/
@@ -588,7 +537,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: shake; 
     animation-name: shake; 
 }
-
 /********
 * ShakeUp *
 ********/
@@ -606,11 +554,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: shakeUp; 
     animation-name: shakeUp; 
 }
-
 /*************
 * FadeInLeft *
 *************/
-
 @-webkit-keyframes fadeInLeft { 
     0% { 
         opacity: 0; 
@@ -646,12 +592,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeInLeft; 
     animation-name: fadeInLeft; 
 }
-
-
 /*************
 * FadeInRight *
 *************/
-
 @-webkit-keyframes fadeInRight { 
     0% { 
         opacity: 0; 
@@ -687,11 +630,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeInRight; 
     animation-name: fadeInRight; 
 }
-
 /*************
 * FadeInUp *
 *************/
-
 @-webkit-keyframes fadeInUp { 
     0% { 
         opacity: 0; 
@@ -727,11 +668,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeInUp; 
     animation-name: fadeInUp; 
 }
-
 /*************
 * FadeInDown *
 *************/
-
 @-webkit-keyframes fadeInDown { 
     0% { 
         opacity: 0; 
@@ -767,7 +706,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeInDown; 
     animation-name: fadeInDown; 
 }
-
 /*****************
 * rotateIn *
 *****************/
@@ -799,11 +737,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: rotateIn; 
     animation-name: rotateIn; 
 }
-
 /*****************
 * rotateInUpLeft *
 *****************/
-
 @-webkit-keyframes rotateInUpLeft { 
     0% { 
         -webkit-transform-origin: left bottom; 
@@ -832,7 +768,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: rotateInUpLeft; 
     animation-name: rotateInUpLeft; 
 }
-
 /*******************
 * rotateInDownLeft *
 *******************/
@@ -864,11 +799,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: rotateInDownLeft; 
     animation-name: rotateInDownLeft; 
 }
-
 /******************
 * rotateInUpRight *
 *******************/
-
 @-webkit-keyframes rotateInUpRight { 
     0% { 
         -webkit-transform-origin: right bottom; 
@@ -897,11 +830,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: rotateInUpRight; 
     animation-name: rotateInUpRight; 
 }
-
 /********************
 * rotateInDownRight *
 ********************/
-
 @-webkit-keyframes rotateInDownRight { 
     0% { 
         -webkit-transform-origin: right bottom; 
@@ -930,11 +861,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: rotateInDownRight; 
     animation-name: rotateInDownRight; 
 }
-
 /*********
 * rollIn *
 **********/
-
 @-webkit-keyframes rollIn { 
     0% { opacity: 0; -webkit-transform: translateX(-100%) rotate(-120deg); } 
     100% { opacity: 1; -webkit-transform: translateX(0px) rotate(0deg); } 
@@ -947,11 +876,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: rollIn; 
     animation-name: rollIn; 
 }
-
 /*********
 * wiggle *
 **********/
-
 @-webkit-keyframes wiggle { 
     0% { -webkit-transform: skewX(9deg); } 
     10% { -webkit-transform: skewX(-8deg); } 
@@ -984,11 +911,9 @@ img {vertical-align: middle;}
     -webkit-animation-timing-function: ease-in; 
     animation-timing-function: ease-in; 
 } 
-
 /********
 * swing *
 *********/
-
 @-webkit-keyframes swing { 
     20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; } 
     20% { -webkit-transform: rotate(15deg); } 
@@ -1010,11 +935,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: swing; 
     animation-name: swing; 
 }
-
 /*******
 * tada *
 ********/
-
 @-webkit-keyframes tada { 
     0% {-webkit-transform: scale(1);} 
     10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);} 
@@ -1033,11 +956,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: tada; 
     animation-name: tada; 
 }
-
 /*********
 * wobble *
 **********/
-
 @-webkit-keyframes wobble { 
   0% { -webkit-transform: translateX(0%); } 
   15% { -webkit-transform: translateX(-25%) rotate(-5deg); } 
@@ -1060,11 +981,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: wobble; 
     animation-name: wobble; 
 }
-
 /********
 * pulse *
 *********/
-
 @-webkit-keyframes pulse { 
     0% { -webkit-transform: scale(1); } 
     50% { -webkit-transform: scale(1.1); } 
@@ -1079,7 +998,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: pulse; 
     animation-name: pulse; 
 }
-
 /***************
 * lightSpeedInRight *
 ****************/
@@ -1101,7 +1019,6 @@ img {vertical-align: middle;}
     -webkit-animation-timing-function: ease-out; 
     animation-timing-function: ease-out; 
 } 
-
 /***************
 * lightSpeedInLeft *
 ****************/
@@ -1123,8 +1040,6 @@ img {vertical-align: middle;}
     -webkit-animation-timing-function: ease-out; 
     animation-timing-function: ease-out; 
 } 
-
-
 /*******
 * Flip *
 *******/
@@ -1178,7 +1093,6 @@ img {vertical-align: middle;}
     backface-visibility: visible !important; 
     animation-name: flip; 
 }
-
 /**********
 * flipInX *
 **********/
@@ -1220,11 +1134,9 @@ img {vertical-align: middle;}
     backface-visibility: visible !important; 
     animation-name: flipInX; 
 }
-
 /**********
 * flipInY *
 **********/
-
 @-webkit-keyframes flipInY { 
     0% { 
         -webkit-transform: perspective(400px) rotateY(90deg); 
@@ -1263,12 +1175,9 @@ img {vertical-align: middle;}
     backface-visibility: visible !important; 
     animation-name: flipInY; 
 }
-
 /*****************
 * Out animations *
 *****************/
-
-
 /************
 * bounceOut *
 *************/
@@ -1308,7 +1217,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: bounceOut; 
     animation-name: bounceOut; 
 }
-
 /************
 * bounceOutUp *
 *************/
@@ -1342,7 +1250,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: bounceOutUp; 
     animation-name: bounceOutUp; 
 }
-
 /************
 * bounceOutDown *
 *************/
@@ -1376,8 +1283,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: bounceOutDown; 
     animation-name: bounceOutDown; 
 }
-
-
 /************
 * bounceOutLeft *
 *************/
@@ -1411,7 +1316,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: bounceOutLeft; 
     animation-name: bounceOutLeft; 
 }
-
 /************
 * bounceOutRight *
 *************/
@@ -1445,7 +1349,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: bounceOutRight; 
     animation-name: bounceOutRight; 
 }
-
 /************
 * fadeOut *
 *************/
@@ -1461,7 +1364,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeOut; 
     animation-name: fadeOut; 
 }
-
 /************
 * fadeOutUp *
 *************/
@@ -1489,7 +1391,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeOutUp; 
     animation-name: fadeOutUp; 
 }
-
 /************
 * fadeOutDown *
 *************/
@@ -1517,7 +1418,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeOutDown; 
     animation-name: fadeOutDown; 
 }
-
 /************
 * fadeOutLeft *
 *************/
@@ -1545,7 +1445,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeOutLeft; 
     animation-name: fadeOutLeft; 
 }
-
 /************
 * fadeOutRight *
 *************/
@@ -1602,7 +1501,6 @@ img {vertical-align: middle;}
     animation-name: flipOutX; 
     backface-visibility: visible !important; 
 }
-
 /************
 * flipOutY *
 *************/
@@ -1632,7 +1530,6 @@ img {vertical-align: middle;}
     backface-visibility: visible !important; 
     animation-name: flipOutY; 
 }
-
 /************
 * lightSpeedOutRight *
 *************/
@@ -1650,8 +1547,6 @@ img {vertical-align: middle;}
     -webkit-animation-timing-function: ease-in; 
     animation-timing-function: ease-in; 
 } 
-
-
 /************
 * lightSpeedOutLeft *
 *************/
@@ -1668,9 +1563,7 @@ img {vertical-align: middle;}
     animation-name: lightSpeedOutLeft; 
     -webkit-animation-timing-function: ease-in; 
     animation-timing-function: ease-in; 
-
 } 
-
 /************
 * rotateOut *
 *************/
@@ -1702,8 +1595,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: rotateOut; 
     animation-name: rotateOut; 
 }
-
-
 /************
 * rotateOutUpLeft *
 *************/
@@ -1735,11 +1626,9 @@ img {vertical-align: middle;}
     -webkit-animation-name: rotateOutUpLeft; 
     animation-name: rotateOutUpLeft; 
 }
-
 /************
 * rotateOutDownLeft *
 *************/
-
 @-webkit-keyframes rotateOutDownLeft { 
     0% { 
         -webkit-transform-origin: left bottom; 
@@ -1771,7 +1660,6 @@ img {vertical-align: middle;}
 /************
 * rotateOutUpRight *
 *************/
-
 @-webkit-keyframes rotateOutUpRight { 
     0% { 
         -webkit-transform-origin: right bottom; 
@@ -1800,7 +1688,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: rotateOutUpRight; 
     animation-name: rotateOutUpRight; 
 }
-
 /************
 * rollOut *
 *************/
@@ -1831,7 +1718,6 @@ img {vertical-align: middle;}
 /*****************
 * Short Animations
 *******************/
-
 /*********************
 * fadeInUpShort
 *********************/
@@ -1845,7 +1731,6 @@ img {vertical-align: middle;}
         -webkit-transform: translateY(0); 
     } 
 } 
-
 @keyframes fadeInUpShort { 
     0% { 
         opacity: 0; 
@@ -1865,7 +1750,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeInUpShort; 
     animation-name: fadeInUpShort; 
 }
-
 /*********************
 * fadeInDownShort
 *********************/
@@ -1879,7 +1763,6 @@ img {vertical-align: middle;}
         -webkit-transform: translateY(0); 
     } 
 } 
-
 @keyframes fadeInDownShort { 
     0% { 
         opacity: 0; 
@@ -1899,7 +1782,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeInDownShort; 
     animation-name: fadeInDownShort; 
 }
-
 /*********************
 * fadeInRightShort 
 *********************/
@@ -1932,7 +1814,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeInRightShort; 
     animation-name: fadeInRightShort; 
 }
-
 /*********************
 * fadeInLeftShort 
 *********************/
@@ -1965,8 +1846,6 @@ img {vertical-align: middle;}
     -webkit-animation-name: fadeInLeftShort; 
     animation-name: fadeInLeftShort; 
 }
-
-
   button.accordion {
     background-color: #eee;
     color: #444;
@@ -2032,16 +1911,13 @@ img {vertical-align: middle;}
   font-size: 40px;
   transform: scaleY(1.5);
 }
-
-
   </style>
 
 </head>
 
 <body>
-  <header class="header" 
-style=" box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);">
-    <div class="container"">
+  <header class="header" style=" box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);" >
+    <div class="container">
       <nav class="navbar navbar-inverse" role="navigation">
         <div class="navbar-header">
           <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-
@@ -2054,20 +1930,17 @@ target="#main-nav">
           </button>
         </div>
         <!--/.navbar-header-->
-        <div id="main-nav" class="collapse navbar-collapse" style="">
+        <div id="main-nav" class="collapse navbar-collapse">
           <ul class="nav" style="position: fixed; left: 10px; ">
           
           </ul>
 
             <center> <ul class="nav navbar-nav" id="mainNav" style="position:relative; right: 15%;">
-              <li class="active"><a href="#home" style="color:white;" class="scroll-link;">Home</a></li>
-              <li><a href="#introText" style="color:white;" class="scroll-link">Newsletter</a></li>
-              <li><a href="#skills" style="color:white;" class="scroll-link">Field Overview</a></li>
-              <li><a href="#experience" style="color:white;" class="scroll-link">Our Development 
-
-Story</a></li>
-              <li><a href="#contactUs" style="color:white;" class="scroll-link">Miscellaneous</a></li>
-	      <li><a href="#team" style="color:white;" class="scroll-link">Team</a></li>
+              <li class="active"><a href="#home" class="scroll-link">Home</a></li>
+              <li><a href="#introText" class="scroll-link">Newsletter</a></li>
+              <li><a href="#skills" class="scroll-link">Field Overview</a></li>
+              <li><a href="#experience" class="scroll-link">Our Development Story</a></li>
+              <li><a href="#contactUs" class="scroll-link">Miscellaneous</a></li>
             </ul> </center>
 <!--          <img width="15%" src="--><!--media/images/logo_pertamina.png" class="ribbon"/>-->
 <!--          <div class="sticky-image-wrapper">-->
@@ -2137,8 +2010,8 @@ height="150%" width="150%" alt="banner"/> </center><br/></h2>
 
   <!--Newsletter-->
   <section id="introText">
-    <div class="container animatedParent ">
-      <div class="text-center w3-container" >
+    <div class="container animatedParent w3-container">
+      <div class="text-center" >
       <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-size:1200%;color:rgba
 
 (186,49,59);text-shadow:2px 2px 4px #000000;" >lightbulb_outline</i>
@@ -2465,12 +2338,12 @@ laborum."</p>
     
     <!--Skills-->
   <section id="skills" class="secPad white">
-    <div class="container ">
+    <div class="container text-center w3-container">
       <div class="text-center animatedParent">
         <!-- Heading -->
-<i class="material-icons animated growIn " style="font-size:1200%;color:rgba(173,197,45);text-shadow:2px 
+<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:rgba
 
-2px 4px #000000;">place</i>
+(173,197,45);text-shadow:2px 2px 4px #000000;">place</i>
         <h2 class='animated bounceInRight' > Field Overview</h2>
         <p class='animated bounceInUp' > Mahakam Field History </p>
         <p class='animated bounceInLeft' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur 
@@ -2691,7 +2564,7 @@ mollit anim id est laborum."</p>
     <div class="container">
     <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:rgba
 
-(60,109,178);text-shadow:2px 2px 4px #000000;">history</i>
+(60,109,178);text-shadow:2px 2px 4px #000000;">lightbulb_outline</i>
     	<h2 class='animated bounceInRight'>Our Development History</h2>
 	<p class='animated bounceInUp'> The Mahakam Fields Journey </p>
         <p class='animated bounceInLeft' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur 
@@ -2808,7 +2681,7 @@ laborum."</p>
           <!-- Heading -->
 <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:black;text-
 
-shadow:2px 2px 4px #000000;">ondemand_video</i>
+shadow:2px 2px 4px #000000;">lightbulb_outline</i>
           <h2 class='animated pulse' >Miscellaneous</h2>
 	  <p class='animated pulse'>Mahakam Field History </p>
          <p class='animated fadeInLeftShort' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, 
@@ -2855,21 +2728,60 @@ laborum."</p>
 		   
 	</div>
   </section >
+  <section class="container text-center">
+  <h2> Our Team </h2>
+<p> </p>
+<br>
 
-  <!--Quote-->
-  <section id="quote" class="bg-parlex" sytle="width=50px">
-    <div class="parlex-back">
-      <div class="container secPad text-center animatedParent">
-        <h3 class='animated growIn'>est 2017 </h3>
+<div class="row animatedParent ">
+  <div class="column text-center">
+    <div class="card">
+      <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-
+
+size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+      <div class="container">
+        <h2>Aldyth SUKAPRADJA</h2>
+        <p class="title">Web & Apps Developer</p>
+        <p>GSR/DEV/TUN/GTS</p>
+        <p>aldyth.sukapradja@pertamina.com</p>
+        <p><button class="button">Contact</button></p>
       </div>
-      <!--/.container-->
     </div>
+  </div>
+  <div class="column animatedParent">
+    <div class="card">
+     <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-
+
+size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+      <div class="container">
+        <h2>Aldyth SUKAPRADJA</h2>
+        <p class="title">Web & Apps Developer</p>
+        <p>GSR/DEV/TUN/GTS</p>
+        <p>aldyth.sukapradja@pertamina.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+     <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-
+
+size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+      <div class="container">
+        <h2>Aldyth SUKAPRADJA</h2>
+        <p class="title">Web & Apps Developer</p>
+        <p>GSR/DEV/TUN/GTS</p>
+        <p>aldyth.sukapradja@pertamina.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
   </section>
-
-
-
-
-
 
 </body>
   <section>
@@ -3159,29 +3071,6 @@ type="text/javascript"></script>
   <script src="http://pertamina.asi-rekrutmen.com/media/js/custom.js" type="text/javascript"></script>
   <script src="http://pertamina.asi-rekrutmen.com/media/js/owl-carousel/owl.carousel.js"></script>
 
- <script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 8000); // Change image every 2 seconds
-}
-</script>
-
-
   <script>
   $(document).ready(function(){
     var jenis_pertanyaan = $('#jenis_pertanyaan');
@@ -3294,7 +3183,6 @@ them.
  */
 (function($) {
   var selectors = [];
-
   var check_binded = false;
   var check_lock = false;
   var defaults = {
@@ -3302,18 +3190,14 @@ them.
     force_process: false
   }
   var $window = $(window);
-
   var $prior_appeared;
-
   function process() {
     check_lock = false;
     for (var index = 0; index < selectors.length; index++) {
       var $appeared = $(selectors[index]).filter(function() {
         return $(this).is(':appeared');
       });
-
       $appeared.trigger('appear', [$appeared]);
-
       if ($prior_appeared) {
         
         var $disappeared = $prior_appeared.not($appeared);
@@ -3322,20 +3206,17 @@ them.
       $prior_appeared = $appeared;
     }
   }
-
   // "appeared" custom filter
   $.expr[':']['appeared'] = function(element) {
     var $element = $(element);
     if (!$element.is(':visible')) {
       return false;
     }
-
     var window_left = $window.scrollLeft();
     var window_top = $window.scrollTop();
     var offset = $element.offset();
     var left = offset.left;
     var top = offset.top;
-
     if (top + $element.height() >= window_top &&
         top - ($element.data('appear-top-offset') || 0) <= window_top + $window.height() &&
         left + $element.width() >= window_left &&
@@ -3345,7 +3226,6 @@ them.
       return false;
     }
   }
-
   $.fn.extend({
     // watching for element's appearance in browser viewport
     appear: function(options) {
@@ -3357,14 +3237,11 @@ them.
             return;
           }
           check_lock = true;
-
           setTimeout(process, opts.interval);
         };
-
         $(window).scroll(on_check).resize(on_check);
         check_binded = true;
       }
-
       if (opts.force_process) {
         setTimeout(process, opts.interval);
       }
@@ -3372,7 +3249,6 @@ them.
       return $(selector);
     }
   });
-
   $.extend({
     // force elements's appearance check
     force_appear: function() {
@@ -3384,9 +3260,6 @@ them.
     }
   });
 })(jQuery);
-
-
-
 /*!
  * jQuery doTimeout: Like setTimeout, but better! - v1.0 - 3/3/2010
  * http://benalman.com/projects/jquery-dotimeout-plugin/
@@ -3395,7 +3268,6 @@ them.
  * Dual licensed under the MIT and GPL licenses.
  * http://benalman.com/about/license/
  */
-
 // Script: jQuery doTimeout: Like setTimeout, but better!
 //
 // *Version: 1.0, Last updated: 3/3/2010*
@@ -3438,7 +3310,6 @@ them.
 //       to poll.
 // 0.4 - (7/15/2009) Made the "id" argument optional, some other minor tweaks
 // 0.3 - (6/25/2009) Initial release
-
 (function($){
   '$:nomunge'; // Used by YUI compressor.
   
@@ -3672,21 +3543,15 @@ them.
   };
   
 })(jQuery);
-
-
-
-
 //CSS3 Animate-it
 $('.animatedParent').appear();
 $('.animatedClick').click(function(){
   var target = $(this).attr('data-target');
-
   
   if($(this).attr('data-sequence') != undefined){
     var firstId = $("."+target+":first").attr('data-id');
     var lastId = $("."+target+":last").attr('data-id');
     var number = firstId;
-
     //Add or remove the class
     if($("."+target+"[data-id="+ number +"]").hasClass('go')){
       $("."+target+"[data-id="+ number +"]").addClass('goAway');
@@ -3708,10 +3573,8 @@ $('.animatedClick').click(function(){
         $("."+target+"[data-id="+ number +"]").addClass('go');
         $("."+target+"[data-id="+ number +"]").removeClass('goAway');
       }
-
       //increment
       ++number;
-
       //continute looping till reached last ID
       if(number <= lastId){return true;}
     });
@@ -3725,22 +3588,18 @@ $('.animatedClick').click(function(){
     }
   } 
 });
-
 $(document.body).on('appear', '.animatedParent', function(e, $affected){
   var ele = $(this).find('.animated');
   var parent = $(this);
   
-
   if(parent.attr('data-sequence') != undefined){
     
     var firstId = $(this).find('.animated:first').attr('data-id');
     var number = firstId;
     var lastId = $(this).find('.animated:last').attr('data-id');
-
     $(parent).find(".animated[data-id="+ number +"]").addClass('go');
     number ++;
     delay = Number(parent.attr('data-sequence'));
-
     $.doTimeout(delay, function(){
       $(parent).find(".animated[data-id="+ number +"]").addClass('go');
       ++number;
@@ -3751,19 +3610,29 @@ $(document.body).on('appear', '.animatedParent', function(e, $affected){
   }
   
 });
-
  $(document.body).on('disappear', '.animatedParent', function(e, $affected) {
   if(!$(this).hasClass('animateOnce')){
     $(this).find('.animated').removeClass('go');
    }
  });
-
  $(window).on('load',function(){
   $.force_appear();
  });
-
 </script>
 
 
 </body>
 </html>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
