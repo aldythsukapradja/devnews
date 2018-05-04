@@ -84,6 +84,51 @@ html {
   padding: 0 8px;
 }
 
+
+
+.row3 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column3 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column3 img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column3 {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column3 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+
+
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -96,7 +141,8 @@ html {
 max-width: 300px;
  text-align: center;
 margin: auto;
-background: white
+background: white;
+border-radius: 30px;
 
 }
 
@@ -2063,11 +2109,12 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
 
             <center> <ul class="nav navbar-nav" id="mainNav" style="position:relative; right: 15%;">
               <li class="active"><a href="#home" class="scroll-link">Home</a></li>
+              <li><a href="#mgt" class="scroll-link">Management</a></li>
               <li><a href="#introText" class="scroll-link">Newsletter</a></li>
               <li><a href="#skills" class="scroll-link">Field Overview</a></li>
               <li><a href="#experience" class="scroll-link">Our Development Story</a></li>
               <li><a href="#contactUs" class="scroll-link">Miscellaneous</a></li>
-	      <li><a href="#team" class="scroll-link">Team</a></li>
+	          <li><a href="#team" class="scroll-link">Team</a></li>
             </ul> </center>
 <!--          <img width="15%" src="--><!--media/images/logo_pertamina.png" class="ribbon"/>-->
 <!--          <div class="sticky-image-wrapper">-->
@@ -2083,6 +2130,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
 
   <!--/.header  -->
   <div id="#top"></div>
+
   <section id="home" class="bg-parlex" >
 
  
@@ -2099,7 +2147,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
   </div>
         <div class="da-slide">
           <h2><br><br><br> DEV NEWS <br/> It's beyond words </h2>
-            <p><br><br> Geoscience and Reservoir Development Division </p>
+            <p><br><br> Geoscience and Reservoir - Development Division </p>
             <div class="da-img"></div>
           </div>
  <div class="da-slide">
@@ -2109,7 +2157,7 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
           </div>
           <div class="da-slide">
           <h2><br><br><br> DEV NEWS <br/> It's beyond words </h2>
-            <p><br><br> Geoscience and Reservoir Development Division </p>
+            <p><br><br> Geoscience and Reservoir - Development Division </p>
             <div class="da-img"></div>
           </div>
 
@@ -2123,13 +2171,423 @@ box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.5);
     </div>
   </section>
 
+<!--Management-->
+<section id="mgt">
+ <div class="container">
+   <section>
+                <div class="container animatedParent w3-container">
+                    <div class="text-center" >
+                            <h2 class='animated bounceInRight'>Geoscience & Reservoir </h2>
+                            <h3 class='animated bounceInUp'> Mangement </h3>
+                            <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-size:1200%;color:rgba(186,49,59);text-shadow:2px 2px 4px #000000;" > 	person_pin </i>
+                            
+                    </div>       
+                </div>       
+   </section>
+   <section>
+        <div class="column text-center animatedParent w3-container">
+                <div class="card animated growIn">
+                <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                  <h2>John Doe</h2>
+                  <p class="title">GSR - Vice President</p>
+                  <p>GSR </p>
+                  <p>gsr@pertamina.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+        </div>
+        <div class="column text-center animatedParent w3-container">
+                <div class="card animated growIn">
+                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                          <h2>John Doe</h2>
+                          <p class="title">GSR - Head Division</p>
+                          <p>GSR</p>
+                          <p>gsr@pertamina.com</p>
+                          <p><button class="button">Contact</button></p>
+                </div>
+        </div>
+        <div class="column text-center animatedParent w3-container">
+                <div class="card animated growIn">
+                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:1200%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                          <h2>John Doe</h2>
+                          <p class="title">GSR - Head Division</p>
+                          <p>GSR </p>
+                          <p>gsr@pertamina.com</p>
+                          <p><button class="button">Contact</button></p>
+               </div>
+               
+        </div>
+  </section>
+
+  <section>
+  <div class="container animatedParent w3-container">
+        <div class="row">
+          <div class="heading text-center">
+            <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-shadow:2px 2px 4px #000000;">graphic_eq</i>
+
+                            <!--Department-->
+                            <div class="row">
+                                <button class="accordion"  style="text-align: center;">Tunu Department</button>
+                                <div class="panel" style="margin-bottom: 0px;">     
+                                <h4>  </h4>
+                                <p> </p>
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:800%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                        <h2>John Doe</h2>
+                                        <p class="title">GSR - Head Department</p>
+                                        <p><button class="button">Contact</button></p>
+                            </div>
+                                <div class="column text-center">
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                        <h2>John Doe</h2>
+                                        <p class="title">GSR - Head Service</p>
+                                        <p><button class="button">Contact</button></p>
+                            </div>
+                            </div>
+                            <div class="column text-center">
+                                    <div class="card">
+                                            <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                            <h2>John Doe</h2>
+                                            <p class="title">GSR - Head Service</p>
+                                            <p><button class="button">Contact</button></p>
+                                </div>
+                            </div>
+                                <div class="column text-center">
+                                        <div class="card">
+                                                <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                                <h2>John Doe</h2>
+                                                <p class="title">GSR - Head Service</p>
+                                                <p><button class="button">Contact</button></p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <!--Department-->
+
+                           <!--Department-->
+                           <div class="row">
+                                <button class="accordion" style="text-align: center;" >Sisi Nubi-South Mahakam Department</button>
+                                <div class="panel" style="margin-bottom: 0px;">     
+                                <h4>  </h4>
+                                <p> </p>
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:800%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Department</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                                <div class="column text-center">
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Service</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                               </div>
+                               <div class="column text-center">
+                                    <div class="card">
+                                            <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                              <h2>John Doe</h2>
+                                              <p class="title">GSR - Head Service</p>
+                                              <p><button class="button">Contact</button></p>
+                                   </div>
+                               </div>
+                                   <div class="column text-center">
+                                        <div class="card">
+                                                <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                                  <h2>John Doe</h2>
+                                                  <p class="title">GSR - Head Service</p>
+                                                  <p><button class="button">Contact</button></p>
+                                       </div>
+                                   </div>
+                              </div>
+                              </div>
+                              <!--Department-->
+                           <!--Department-->
+                           <div class="row">
+                                <button class="accordion" style="text-align: center;" >Peciko-Bekapai Department</button>
+                                <div class="panel" style="margin-bottom: 0px;">     
+                                <h4>  </h4>
+                                <p> </p>
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:800%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Department</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                                <div class="column text-center">
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Service</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                               </div>
+                               <div class="column text-center">
+                                    <div class="card">
+                                            <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                              <h2>John Doe</h2>
+                                              <p class="title">GSR - Head Service</p>
+                                              <p><button class="button">Contact</button></p>
+                                   </div>
+                               </div>
+                                   <div class="column text-center">
+                                        <div class="card">
+                                                <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                                  <h2>John Doe</h2>
+                                                  <p class="title">GSR - Head Service</p>
+                                                  <p><button class="button">Contact</button></p>
+                                       </div>
+                                   </div>
+                              </div>
+                              </div>
+                              <!--Department-->
+                           <!--Department-->
+                           <div class="row">
+                                <button class="accordion" style="text-align: center;" >Handil-Tambora Department</button>
+                                <div class="panel" style="margin-bottom: 0px;">     
+                                <h4>  </h4>
+                                <p> </p>
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:800%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Department</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                                <div class="column text-center">
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Service</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                               </div>
+                               <div class="column text-center">
+                                    <div class="card">
+                                            <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                              <h2>John Doe</h2>
+                                              <p class="title">GSR - Head Service</p>
+                                              <p><button class="button">Contact</button></p>
+                                   </div>
+                               </div>
+                                   <div class="column text-center">
+                                        <div class="card">
+                                                <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                                  <h2>John Doe</h2>
+                                                  <p class="title">GSR - Head Service</p>
+                                                  <p><button class="button">Contact</button></p>
+                                       </div>
+                                   </div>
+                              </div>
+                              </div>
+                              <!--Department-->
+                           <!--Department-->
+                           <div class="row">
+                                <button class="accordion" style="text-align: center;" >Development Studies Department</button>
+                                <div class="panel" style="margin-bottom: 0px;">     
+                                <h4>  </h4>
+                                <p> </p>
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:800%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Department</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                                <div class="column text-center">
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Service</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                               </div>
+                               <div class="column text-center">
+                                    <div class="card">
+                                            <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                              <h2>John Doe</h2>
+                                              <p class="title">GSR - Head Service</p>
+                                              <p><button class="button">Contact</button></p>
+                                   </div>
+                               </div>
+                                   <div class="column text-center">
+                                        <div class="card">
+                                                <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                                  <h2>John Doe</h2>
+                                                  <p class="title">GSR - Head Service</p>
+                                                  <p><button class="button">Contact</button></p>
+                                       </div>
+                                   </div>
+                              </div>
+                              </div>
+                              <!--Department-->
+                           <!--Department-->
+                           <div class="row">
+                                <button class="accordion" style="text-align: center;" >Wellsite Geology Department</button>
+                                <div class="panel" style="margin-bottom: 0px;">     
+                                <h4>  </h4>
+                                <p> </p>
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:800%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Department</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                                <div class="column text-center">
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Service</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                               </div>
+                               <div class="column text-center">
+                                    <div class="card">
+                                            <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                              <h2>John Doe</h2>
+                                              <p class="title">GSR - Head Service</p>
+                                              <p><button class="button">Contact</button></p>
+                                   </div>
+                               </div>
+                                   <div class="column text-center">
+                                        <div class="card">
+                                                <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                                  <h2>John Doe</h2>
+                                                  <p class="title">GSR - Head Service</p>
+                                                  <p><button class="button">Contact</button></p>
+                                       </div>
+                                   </div>
+                              </div>
+                              </div>
+                              <!--Department-->
+                                                         <!--Department-->
+                           <div class="row">
+                                <button class="accordion" style="text-align: center;" >Petrophysics Department</button>
+                                <div class="panel" style="margin-bottom: 0px;">     
+                                <h4>  </h4>
+                                <p> </p>
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:800%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Department</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                                <div class="column text-center">
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Service</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                               </div>
+                               <div class="column text-center">
+                                    <div class="card">
+                                            <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                              <h2>John Doe</h2>
+                                              <p class="title">GSR - Head Service</p>
+                                              <p><button class="button">Contact</button></p>
+                                   </div>
+                               </div>
+                                   <div class="column text-center">
+                                        <div class="card">
+                                                <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                                  <h2>John Doe</h2>
+                                                  <p class="title">GSR - Head Service</p>
+                                                  <p><button class="button">Contact</button></p>
+                                       </div>
+                                   </div>
+                              </div>
+                              </div>
+                              <!--Department-->
+                                <!--Department-->
+                           <div class="row">
+                                <button class="accordion" style="text-align: center;" >Geoscience Information</button>
+                                <div class="panel" style="margin-bottom: 0px;">     
+                                <h4>  </h4>
+                                <p> </p>
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:800%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Department</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                                <div class="column text-center">
+                                <div class="card">
+                                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                          <h2>John Doe</h2>
+                                          <p class="title">GSR - Head Service</p>
+                                          <p><button class="button">Contact</button></p>
+                               </div>
+                               </div>
+                               <div class="column text-center">
+                                    <div class="card">
+                                            <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                              <h2>John Doe</h2>
+                                              <p class="title">GSR - Head Service</p>
+                                              <p><button class="button">Contact</button></p>
+                                   </div>
+                               </div>
+                                   <div class="column text-center">
+                                        <div class="card">
+                                                <i class="material-icons animated growIn  w3-panel w3-padding-32" style=" font-size:400%;color:grey;text-shadow:2px 2px 4px #000000;" >portrait</i>
+                                                  <h2>John Doe</h2>
+                                                  <p class="title">GSR - Head Service</p>
+                                                  <p><button class="button">Contact</button></p>
+                                       </div>
+                                   </div>
+                              </div>
+                              </div>
+                              <!--Department-->
+
+
+        </div>
+   </div>
+   </section>   
+</section>   
+       
+     <!--Ribbon-->
+  <section id="quote" class="bg-parlex">
+        <div class="parlex-back">
+          <div class="container secPad text-center animatedParent">
+            <h3 class='animated growIn'> GSR - Development News </h3>
+            <section>
+                    <div class="container animatedParent w3-container">
+                        <div class="text-left" >
+                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-size:1200%;color:rgb(255, 255, 255);text-shadow:2px 2px 4px #000000;" >visibility</i>
+                           <h2 class='animated bounceInRight'>DevNews Vision </h2>
+                           <p class='animated bounceInUp' style=" color:rgb(255, 255, 255);" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+                                laborum. </p>
+                        </div>       
+                    </div>       
+                  </section>
+                  <section>
+                    <div class="container animatedParent w3-container">
+                        <div class="text-right" >
+                        <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-size:1200%;color:rgb(255, 255, 255);text-shadow:2px 2px 4px #000000;" >work</i>
+                           <h2 class='animated bounceInRight'>DevNews Mission</h2>
+                           <p class='animated bounceInUp' style=" color:rgb(255, 255, 255);"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+                                laborum </p>
+                        </div>       
+                    </div>       
+                  </section>
+                  <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-shadow:2px 2px 4px #000000;">graphic_eq</i>
+                </div>
+                </section>
+          </div>
+          <!--/.container-->
+        </div>
+      </section>
+
+
+
   <!--Newsletter-->
   <section id="introText">
     <div class="container animatedParent w3-container">
       <div class="text-center" >
       <i class="material-icons animated growIn  w3-panel w3-padding-32" style="font-size:1200%;color:rgba(186,49,59);text-shadow:2px 2px 4px #000000;" >lightbulb_outline</i>
          <h2 class='animated bounceInRight'>Newsletter</h2>
-	<p class='animated bounceInUp'> Monthly news roundup </p>
+	     <p class='animated bounceInUp'> Monthly news roundup </p>
 
         
         <p class='animated bounceInLeft'style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
@@ -2281,7 +2739,7 @@ laborum."</p>
   </section>
  
 
-  <!--Quote-->
+  <!--Ribbon-->
   <section id="quote" class="bg-parlex">
     <div class="parlex-back">
       <div class="container secPad text-center animatedParent">
@@ -2291,12 +2749,12 @@ laborum."</p>
     </div>
   </section>
     
-    <!--Skills-->
+    <!--Field Overview-->
   <section id="skills" class="secPad white">
     <div class="container text-center w3-container">
       <div class="text-center animatedParent">
         <!-- Heading -->
-<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:rgba(173,197,45);text-shadow:2px 2px 4px #000000;">place</i>
+        <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:rgba(173,197,45);text-shadow:2px 2px 4px #000000;">place</i>
         <h2 class='animated bounceInRight' > Field Overview</h2>
         <p class='animated bounceInUp' > Mahakam Field History </p>
         <p class='animated bounceInLeft' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
@@ -2403,14 +2861,14 @@ mollit anim id est laborum."</p>
     </div>
   </section>
 
-  <!--Experience-->
-  <section id="experience" " style=" height: 100vh ;">
+  <!--Our Development History-->
+  <section id="experience"; >
     <div class="text-center animatedParent w3-container">
     <div class="container">
     <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:rgba(60,109,178);text-shadow:2px 2px 4px #000000;">history</i>
-    	<h2 class='animated bounceInRight'>Our Development History</h2>
+    <h2 class='animated bounceInRight'>Our Development History</h2>
 	<p class='animated bounceInUp'> The Mahakam Fields Journey </p>
-        <p class='animated bounceInLeft' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+    <p class='animated bounceInLeft' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
 
 laborum."</p>
 
@@ -2459,7 +2917,7 @@ laborum."</p>
 .
 .
 
- <!--Quote-->
+ <!--Ribbon-->
   <section id="quote" class="bg-parlex">
     <div class="parlex-back">
       <div class="container secPad text-center animatedParent">
@@ -2469,38 +2927,76 @@ laborum."</p>
     </div>
   </section>
 
-  <!--Contact -->
-  <section id="contactUs" class="page-section white" style=" height: 100vh ;">
+  <!--Misc -->
+  <section id="contactUs" class="page-section white">
 
     <div class="container animatedParent w3-container">
       <div class="row">
         <div class="heading text-center">
           <!-- Heading -->
-<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:black;text-shadow:2px 2px 4px #000000;">ondemand_video</i>
-          <h2 class='animated pulse' >Miscellaneous</h2>
-	  <p class='animated pulse'>Mahakam Field History </p>
-         <p class='animated fadeInLeftShort' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-
+           <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:black;text-shadow:2px 2px 4px #000000;">ondemand_video</i>
+           <h2 class='animated pulse' >Miscellaneous</h2>
+	       <p class='animated pulse'>Mahakam Field History </p>
+           <p class='animated fadeInLeftShort' style="font-size: 12pt;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
-
 laborum."</p>
 
-<i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-shadow:2px 2px 4px #000000;">graphic_eq</i>
+        <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:200%;color:black;text-shadow:2px 2px 4px #000000;">graphic_eq</i>
         <div class="row">
         <button class="accordion">Office Arrangement Competition</button>
-                      <div class="panel" style="margin-bottom: 0px;">
+        <div class="panel" style="margin-bottom: 0px;">
 		<a class="gal_ia" href="http://phmweb/file_geosciences/GSR_4CND/Office Arrangement Competition 2018.html" target="_blank"><img src="http://phmweb/file_geosciences/GSR_4CND/screen_img/Office Arrangement Competition 
 2018.jpg" height="50%" width="50%"  /></a>      
-
-                
-  <h4>Summary </h4>
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+       <h4>Summary </h4>
+       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                  </div>
-		   
-	</div>
+        </div>
+    </div>
+        <!--Photo Gallery-->
+        <div class="row">
+                <button class="accordion" >Photo Gallery</button>
+                <div class="panel" style="margin-bottom: 0px;">     
+                <h4>  </h4>
+                <p> </p>
+                <div class="row3"> 
+                        <div class="column3">
+                          <img src="https://pertamina.com/Media/Image/slider/Pertamina_Confident.jpg" style="width:100%">
+                          <img src="https://www.pertamina.com/Media/Upload/Image/renew_energy_PGE.jpg" style="width:100%">
+                          <img src="https://www.goodnewsfromindonesia.id/uploads/post/large-showimg-2c11728afe68b714740fe7c288a0dec0.jpg" style="width:100%">
+                          <img src="http://eksplorasi.id/wp-content/uploads/2016/06/pertamina.jpg" style="width:100%">
+
+                        </div>
+                        <div class="column3">
+                                <img src="https://www.pertamina.com/Media/Upload/Image/renew_energy_PGE.jpg" style="width:100%">
+                                <img src="https://www.goodnewsfromindonesia.id/uploads/post/large-showimg-2c11728afe68b714740fe7c288a0dec0.jpg" style="width:100%">
+                                <img src="http://eksplorasi.id/wp-content/uploads/2016/06/pertamina.jpg" style="width:100%">
+                                <img src="https://pertamina.com/Media/Image/slider/Pertamina_Confident.jpg" style="width:100%">
+                        </div>  
+                        <div class="column3">
+                                <img src="https://pertamina.com/Media/Image/slider/Pertamina_Confident.jpg" style="width:100%">    
+                            <img src="https://www.pertamina.com/Media/Upload/Image/renew_energy_PGE.jpg" style="width:100%">
+                                <img src="https://www.goodnewsfromindonesia.id/uploads/post/large-showimg-2c11728afe68b714740fe7c288a0dec0.jpg" style="width:100%">
+                                <img src="http://eksplorasi.id/wp-content/uploads/2016/06/pertamina.jpg" style="width:100%">
+                                
+                        </div>
+                        <div class="column3">
+                                <img src="http://eksplorasi.id/wp-content/uploads/2016/06/pertamina.jpg" style="width:100%">
+                                <img src="https://www.goodnewsfromindonesia.id/uploads/post/large-showimg-2c11728afe68b714740fe7c288a0dec0.jpg" style="width:100%">
+                                <img src="https://pertamina.com/Media/Image/slider/Pertamina_Confident.jpg" style="width:100%">
+                                <img src="https://www.pertamina.com/Media/Upload/Image/renew_energy_PGE.jpg" style="width:100%">
+
+                        </div>
+                      </div>
+                </div>
+         </div>
+        
+        <!--Photo Gallery-->
+      </div>  
+
   </section >
+
+  <!--Team -->
   <section id="team" class="container text-center w3-container animatedParent " style=" height: 100vh ;">
   <i class="material-icons animated growIn w3-panel w3-padding-32" style="font-size:1200%;color:black;text-shadow:2px 2px 4px #000000;">extension</i>
   <h2> Our Team </h2>
@@ -2546,10 +3042,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
   </div>
 
 </div>
-
-
-
-  </section>
+</section>
 
 </body>
   <section>
@@ -2569,149 +3062,6 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
   <!--/.page-section-->
    
  
-
-  <!-- Modal -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	  <div class="modal-lg modal-dialog" role="document" style="width: 750px;">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	        <h4 class="modal-title" id="myModalLabel">Tata Cara</h4>
-	      </div>
-
-	      <div class="modal-body" style="font-family: 'Open Sans', sans-serif;font-size: 14px;color: #666;line-height: 24px;">
-	        	
-          <b>Persyaratan Umum</b>
-          <ul style="list-style-type:decimal; margin-left:16px;">
-            <!--<li>Aplikasi secara online untuk Seleksi Penerimaan Calon Karyawan akan dilaksanakan pada tanggal 21-08-2017 mulai pukul 00:00:00 WIB dan berakhir pada tanggal 02-09-2017 pukul 23:59:59 WIB.</li>-->
-            <li>Hanya pelamar yang memenuhi persyaratan yang akan dihubungi untuk diikutsertakan dalam proses seleksi selanjutnya.</li>
-          </ul>
-
-          <p>Syarat dan Ketentuan :</p>
-          <b>Kebutuhan Minimum</b>
-          <p style="color:#666;">Untuk dapat melakukan aplikasi secara online dengan baik, spesifikasi Komputer berikut merupakan kebutuhan minimum yang harus dipenuhi:</p>
-          <ul style="list-style-type:decimal; margin-left:16px;">
-            <li>Operating System Windows based minimum Windows XP atau versi terbaru.</li>
-            <li>Harus menggunakan web browser minimal Internet Explorer 10 atau versi terbaru, web browser Mozilla Firefox minimal versi 3.0 atau versi terbaru, web browser Google Chrome minimal versi 16 atau versi terbaru.</li>
-            <li>Cookies harus aktif.</li>
-            <li>Javascript harus aktif dan berfungsi.</li>
-            <li>Resolusi Layar minimal 1024x768.</li>
-            <li>Koneksi Internet Broadband yang stabil.</li>
-          </ul>
-          <br/>
-          <h4><span style="background-color:#c53e3e;color:#ffffff">PENTING UNTUK DIPERHATIKAN</span></h4>
-            <ul style="list-style-type:decimal; margin-left:16px;">
-              <li>Yakinkan bahwa tidak ada aplikasi-aplikasi lain yang sedang berjalan seperti; pemutar musik, program chatting, dan web browser selain pendaftaran aplikasi secara online.</li>
-              <li>Yakinkan Anda telah memasukkan semua data yang diperlukan secara baik dan benar sebelum Anda mengirimkan aplikasi Anda.</li>
-              <li>Untuk email, harap mengisi kolom ini dengan baik dan benar. Periksa kembali pengejaan alamat email Anda sebelum mengirimkan aplikasi Anda. Pastikan Anda hanya memasukkan 1 alamat email saja. Kesalahan dalam penulisan 
-
-alamat email akan mengakibatkan Anda tidak akan menerima informasi selanjutnya dari kami.</li>
-              <li>Untuk nomor handphone, isilah kolom ini dengan nomor handphone yang Anda miliki. Harap mengisi kolom ini dengan baik dan benar. Periksa kembali penulisan nomor handphone Anda sebelum mengirimkan aplikasi Anda. Kesalahan 
-
-dalam penulisan nomor handphone akan mengakibatkan Anda tidak akan menerima informasi selanjutnya dari kami.</li>
-            </ul>
-            <!--<input type="checkbox" id="check"> Saya telah membaca dan mengerti seluruh petunjuk tata cara pengisian. Jika dikemudian hari setelah diterima sebagai pegawai PT Pertamina Persero ditemukan adanya pemalsuan data, maka PT 
-Pertamina Persero berhak untuk mengeluarkan saya dari status kepegawaian Pertamina.-->
-            <div class="col-md-12">
-              <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-height:20px;">
-              <label style="font-size:1em">
-                <input type="checkbox" id="confirm1" name="confirm1" value="agree1" />
-                  <!--<span class="cr"><i class="cr-icon fa fa-check"></i></span>-->
-                  Saya menyatakan bahwa seluruh informasi yang saya berikan benar adanya dan saya akan menyediakan dokumen-dokumen pendukung terkait jika diminta dan Saya menyetujui bahwa seluruh keputusan dalam proses dan hasil 
-
-assessmen dari pihak panitia adalah <b>final</b> dan <b>tidak dapat diganggu gugat</b>.
-                </label>
-              </div>
-              <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-height:20px;">
-                <label style="font-size:1em">
-                  <input type="checkbox" id="confirm2" name="confirm2" value="agree2" />
-                  <!--<span class="cr"><i class="cr-icon fa fa-check"></i></span>-->
-                  Saya menyatakan dengan sebenarnya bahwa saya <b>BERSEDIA</b> ditempatkan di seluruh wilayah kerja <b>PT. PERTAMINA (Persero)</b>. Apabila dikemudian hari saya menolak penempatan yang telah ditetapkan oleh pihak <b>PT. 
-
-PERTAMINA (Persero)</b> maka saya menyatakan <b>MENGUNDURKAN DIRI</b> dan menerima konsekuensi bahwa saya tidak dapat mengikuti proses seleksi calon pekerja <b>PT. PERTAMINA (Persero)</b> selama 3 tahun kedepan.
-                </label>
-              </div>
-			      </div>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" style="background: #ed1b2f;color:#ffffff" data-dismiss="modal">Batal</button>
-	        <button type="button" class="btn btn-primary" id="lanjutkan" style="background: #1e67ab;" disabled>Lanjutkan <i class="fa fa-level-up" aria-hidden="true"></i></button>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-
-  <div class="modal fade" id="myModal_fg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-lg modal-dialog" role="document" style="width: 750px;">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Tata Cara</h4>
-        </div>
-
-        <div class="modal-body" style="font-family: 'Open Sans', sans-serif;font-size: 14px;color: #666;line-height: 24px;">
-
-          <b>Persyaratan Umum</b>
-          <ul style="list-style-type:decimal; margin-left:16px;">
-            <!--<li>Aplikasi secara online untuk Seleksi Penerimaan Calon Karyawan akan dilaksanakan pada tanggal 21-08-2017 mulai pukul 00:00:00 WIB dan berakhir pada tanggal 02-09-2017 pukul 23:59:59 WIB.</li>-->
-            <li>Hanya pelamar yang memenuhi persyaratan yang akan dihubungi untuk diikutsertakan dalam proses seleksi selanjutnya.</li>
-            <li>Bagi yang sudah pernah mendaftar, mohon untuk tidak melakukan pendaftaran kembali.</li>
-          </ul>
-
-          <p>Syarat dan Ketentuan :</p>
-          <b>Kebutuhan Minimum</b>
-          <p style="color:#666;">Untuk dapat melakukan aplikasi secara online dengan baik, spesifikasi Komputer berikut merupakan kebutuhan minimum yang harus dipenuhi:</p>
-          <ul style="list-style-type:decimal; margin-left:16px;">
-            <li>Operating System Windows based minimum Windows XP atau versi terbaru.</li>
-            <li>Harus menggunakan web browser minimal Internet Explorer 10 atau versi terbaru, web browser Mozilla Firefox minimal versi 3.0 atau versi terbaru, web browser Google Chrome minimal versi 16 atau versi terbaru.</li>
-            <li>Cookies harus aktif.</li>
-            <li>Javascript harus aktif dan berfungsi.</li>
-            <li>Resolusi Layar minimal 1024x768.</li>
-            <li>Koneksi Internet Broadband yang stabil.</li>
-          </ul>
-          <br/>
-          <h4><span style="background-color:#c53e3e;color:#ffffff">PENTING UNTUK DIPERHATIKAN</span></h4>
-          <ul style="list-style-type:decimal; margin-left:16px;">
-            <li>Yakinkan bahwa tidak ada aplikasi-aplikasi lain yang sedang berjalan seperti; pemutar musik, program chatting, dan web browser selain pendaftaran aplikasi secara online.</li>
-            <li>Yakinkan Anda telah memasukkan semua data yang diperlukan secara baik dan benar sebelum Anda mengirimkan aplikasi Anda.</li>
-            <li>Untuk email, harap mengisi kolom ini dengan baik dan benar. Periksa kembali pengejaan alamat email Anda sebelum mengirimkan aplikasi Anda. Pastikan Anda hanya memasukkan 1 alamat email saja. Kesalahan dalam penulisan 
-
-alamat email akan mengakibatkan Anda tidak akan menerima informasi selanjutnya dari kami.</li>
-            <li>Untuk nomor handphone, isilah kolom ini dengan nomor handphone yang Anda miliki. Harap mengisi kolom ini dengan baik dan benar. Periksa kembali penulisan nomor handphone Anda sebelum mengirimkan aplikasi Anda. Kesalahan 
-
-dalam penulisan nomor handphone akan mengakibatkan Anda tidak akan menerima informasi selanjutnya dari kami.</li>
-          </ul>
-          <!--<input type="checkbox" id="check"> Saya telah membaca dan mengerti seluruh petunjuk tata cara pengisian. Jika dikemudian hari setelah diterima sebagai pegawai PT Pertamina Persero ditemukan adanya pemalsuan data, maka PT 
-Pertamina Persero berhak untuk mengeluarkan saya dari status kepegawaian Pertamina.-->
-          <div class="col-md-12">
-            <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-height:20px;">
-              <label style="font-size:1em">
-                <input type="checkbox" id="confirm3" name="confirm1" value="agree1" />
-                <!--<span class="cr"><i class="cr-icon fa fa-check"></i></span>-->
-                Saya menyatakan bahwa seluruh informasi yang saya berikan benar adanya dan saya akan menyediakan dokumen-dokumen pendukung terkait jika diminta dan Saya menyetujui bahwa seluruh keputusan dalam proses dan hasil assessmen 
-
-dari pihak panitia adalah <b>final</b> dan <b>tidak dapat diganggu gugat</b>.
-              </label>
-            </div>
-            <div class="checkbox" style="margin:20px; margin-left:0px; text-align:justify; line-height:20px;">
-              <label style="font-size:1em">
-                <input type="checkbox" id="confirm4" name="confirm2" value="agree2" />
-                <!--<span class="cr"><i class="cr-icon fa fa-check"></i></span>-->
-                Saya menyatakan dengan sebenarnya bahwa saya <b>BERSEDIA</b> ditempatkan di seluruh wilayah kerja <b>PT. PERTAMINA (Persero)</b>. Apabila dikemudian hari saya menolak penempatan yang telah ditetapkan oleh pihak <b>PT. 
-
-PERTAMINA (Persero)</b> maka saya menyatakan <b>MENGUNDURKAN DIRI</b> dan menerima konsekuensi bahwa saya tidak dapat mengikuti proses seleksi calon pekerja <b>PT. PERTAMINA (Persero)</b> selama 3 tahun kedepan.
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" style="background: #ed1b2f;color:#ffffff" data-dismiss="modal">Batal</button>
-          <button type="button" class="btn btn-primary" id="lanjutkan_fg" style="background: #1e67ab;" disabled>Lanjutkan <i class="fa fa-level-up" aria-hidden="true"></i></button>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!--[if lte IE 8]>
     <script src="http://pertamina.asi-rekrutmen.com/media/js/jquery-1.11.0.min.js"></script>
   <![endif]-->
